@@ -1,7 +1,7 @@
 # Society
 
 ## Overview
-The ship houses roughly two million people. It functions as a closed ecosystem with its own norms, pressures, and cultural drift, accumulated over nearly 20,000 years of continuous travel within a planned 40,000-year mission. Life aboard is shaped by scarcity, confinement, and the knowledge that failure means extinction. Society is stable, but psychological tension sits right under the surface.
+The ship houses roughly two million people. It functions as a closed ecosystem with its own norms, pressures, and cultural drift, accumulated over nearly 20,000 years of continuous travel within a planned 40,000-year mission toward Tau Ceti. Life aboard is shaped by scarcity, confinement, and the knowledge that failure means extinction. Society is stable, but psychological tension sits right under the surface.
 
 ## Population Structure
 - Multi-generational families
@@ -15,7 +15,7 @@ The ship houses roughly two million people. It functions as a closed ecosystem w
 - Respect for technical labor
 - Quiet distrust of extremism
 - High value on emotional self-control
-- A moral expectation to not endanger the mission
+- A moral expectation to not endanger the mission or the long, fragile line of lives between their generation and arrival at Tau Ceti
 
 ## Social Pressures
 - Everyone is monitored for mental health
@@ -27,7 +27,7 @@ The ship houses roughly two million people. It functions as a closed ecosystem w
 ## Background Fear
 - From childhood, citizens understand that there is no outside world to fall back on; the ship is the only ground they will ever know.
 - Emergency drills, loss-of-pressure warnings, and stories of past near-failures keep a low-grade awareness of catastrophe alive, even when systems are stable.
-- People are encouraged to be calm and grateful, but private conversations often circle back to "what if" scenarios about hull breaches, system failures, or the end of the mission.
+- People are encouraged to be calm and grateful, but private conversations often circle back to "what if" scenarios about hull breaches, system failures, the end of the mission, or the possibility that Tau Ceti will not be what the old stories promised.
 
 ## Fault Lines
 - Class differences between technical sectors and labor sectors

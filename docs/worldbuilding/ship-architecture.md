@@ -1,7 +1,7 @@
 # Ship Architecture
 
 ## Overview
-The ship is a rotating multi-ring vessel built for a mission spanning tens of millennia. It is hundreds of kilometers long and dozens of kilometers in diameter. Its principal living volume is an internally rotating cylinder: a continuous, ribbon-like continent of soil, water, towns, and fields curving out of sight overhead.
+The ship is a rotating multi-ring vessel built for a mission spanning tens of millennia, intended to carry its inhabitants from the ruined Solar System to the Tau Ceti system. It is hundreds of kilometers long and dozens of kilometers in diameter. Its principal living volume is an internally rotating cylinder: a continuous, ribbon-like continent of soil, water, towns, and fields curving out of sight overhead.
 
 From the ground, citizens perceive a "sky" that is actually the far inner wall of the cylinder, studded with mirror arrays and light panels simulating circadian patterns. To a child, it feels less like a ship and more like a man-made world.
 
@@ -38,6 +38,7 @@ It contains habitats, agricultural cylinders, industrial zones, archives, and st
 ### Memory Vaults
 - Heavily shielded repositories of historical records, art, science, and cultural memory
 - Distributed in multiple redundant sites to survive localized catastrophes
+- Contain the most precise surviving navigational ephemeris for Tau Ceti and its suspected planets, though few civilians ever see more than stylized diagrams
 
 ### Core AI Node
 - Located near the structural center of the ship, outside the main gravity rings

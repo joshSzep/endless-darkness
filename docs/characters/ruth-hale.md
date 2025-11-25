@@ -26,7 +26,7 @@ Living with a man she loved who became dangerous when drunk. Her faith became bo
 ## Relationship Notes
 - **Samuel:** Her rock. She trusted him too early.
 - **Gregory:** Loved him despite the harm.
-- **Grandchildren:** They all adore her.
+- **Grandchildren:** They all adore her. She pays quiet attention to Jonah and Alina in particular, seeing echoes of both parents in them.
 
 ## Arc Notes
 - Provides the emotional backbone of Samuel’s identity.

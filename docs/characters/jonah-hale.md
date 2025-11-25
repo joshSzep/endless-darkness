@@ -33,6 +33,7 @@ Growing up in a home shaped by depression and a father who never admitted how mu
 ## Relationship Notes
 - **Samuel Hale (father):** Loves Jonah unconditionally. Jonah believes he can never live up to him.
 - **Lydia Marlow (mother):** Jonah recognizes her pain in himself. Fears becoming her.
+- **Alina Hale (younger sister):** Shares his sensitivity and self-doubt. He worries she is disappearing into the same kind of fear he lives with, and he does not know how to help.
 - **Sera Solano:** First person who sees him without fear or judgment.
 - **Grandparents:** Conflicting views create deep confusion in him.
 

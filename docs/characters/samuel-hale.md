@@ -29,6 +29,7 @@ Being the oldest son of a violent alcoholic. He learned to protect others and hi
 
 ## Relationship Notes
 - **Jonah:** Loves him more than anything. Sees Jonah's storms before Jonah admits they exist.
+- **Alina:** Proud of her eye for beauty. Worries that her anxiety and self-doubt are slowly convincing her that her gifts do not matter.
 - **Lydia Marlow:** Loves her with patience. Watches her depression deepen and feels helpless.
 - **Gregory Hale:** Sees the good in him that no one else remembers.
 - **Ruth Hale:** Inherits her quiet faith and steady morals.

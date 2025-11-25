@@ -1,0 +1,1 @@
+A young engineer aboard a massive generation ship begins to unravel, only to discover that his own breaking mind is the first to sense a deeper fracture in the vessel itself. As his collapse sparks fear across the ship, Jonah Hale must confront the truth that the instability inside him is tied to a truth the entire society has been trained to ignore.

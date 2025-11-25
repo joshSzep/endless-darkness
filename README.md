@@ -1,9 +1,9 @@
 # Endless Darkness
 
 ![Front Cover](front-cover.png)
-![Back Cover](back-cover.png)
+![Back Cover](back-cover-with-text.png)
 
-Endless Darkness is a character-driven science fiction novel steeped in quiet, persistent terror. It is set aboard a massive generation ship carrying millions of people across interstellar space, where the threat that drove humanity from Earth never fully stops feeling like it is still on its way. The story follows Jonah Hale, a quiet and brilliant young man shaped by generational trauma, untreated mental illness in his family, and a lifetime spent hiding his own storms. It is a narrative about fear, love, faith, recovery, and the search for a place to rest when nothing in the external world can truly be called safe.
+Endless Darkness is a character-driven science fiction novel steeped in quiet, persistent terror. It is set aboard a massive generation ship carrying millions of people across interstellar space—a rotating metal world that remembers everything its people try to forget. The story follows Jonah Hale, a young engineer shaped by generational trauma, untreated mental illness in his family, and a lifetime spent hiding his own storms. When his mind begins to slip, the ship's AI intervenes, and Jonah becomes the center of a cultural reckoning that has been building for decades. As hallucinations blur into warnings and old traumas surface in both man and machine, Jonah discovers that his breaking mind may be the first to sense a deeper fracture in the vessel itself.
 
 This repository contains the full structure of the novel, including chapters, worldbuilding documents, character profiles, thematic notes, outlines, and research materials. It is designed for clarity, iteration, and long-term development of a single, coherent atmosphere of dread.
 
@@ -11,11 +11,11 @@ This repository contains the full structure of the novel, including chapters, wo
 
 Roughly 22,000 years ago, humanity discovered a rogue ice giant on a collision course with Earth. With about 2,000 years to prepare, the world united to build thousands of enormous generation ships and, roughly 20,000 years ago, launched them toward distant stars. The journey itself is a 40,000-year mission, now halfway complete. Across the millennia since launch, communication with Earth and the other ships has long been lost. No one aboard Jonah’s ship knows whether anything human still waits behind them or ahead of them.
 
-For Jonah, the ship is all he has ever known. Its metal corridors, artificial dawns, and watching systems are his entire sky. It is his world, his cage, and his inheritance.
+For Jonah, the ship is all he has ever known. Its metal corridors, artificial dawns, and watching systems are his entire sky. It is his world, his cage, and his inheritance. He has always felt the ship watching him, tracking him, echoing the patterns of the mother he fears he is becoming.
 
-Jonah’s life begins to shift when he falls in love with Sera Solano, a woman who sees him clearly and does not turn away from what she finds. As Jonah tries to hold his life together, the unresolved storms inside him begin to break open. The ship’s AI notices. Jonah’s family notices. Jonah himself cannot avoid the truth, or the terror of becoming the very things he fears.
+Jonah's life begins to shift when he falls in love with Sera Solano, a woman who sees him clearly and does not turn away from what she finds. As Jonah tries to hold his life together, the unresolved storms inside him begin to break open. The ship's AI notices. Civilians panic. Jonah's family notices. Jonah himself cannot avoid the truth—that the instability inside him may be tied to a truth the entire society has been trained to ignore.
 
-Endless Darkness follows Jonah through formation, connection, unraveling, collapse, and restoration as he learns what it means to seek help, to accept love without trusting it blindly, and to build a home within himself when the larger world feels inescapably precarious.
+Endless Darkness follows Jonah through formation, connection, unraveling, collapse, and restoration as he confronts the reality that the darkness outside is nothing compared to the darkness a society refuses to face. To survive, both he and the ship must learn the same thing: you cannot outrun what you carry.
 
 ## Repository Structure
 
@@ -30,9 +30,6 @@ Endless Darkness follows Jonah through formation, connection, unraveling, collap
 
 * **docs/outline**
   High-level arc, act structure, story beats, and thematic breakdowns.
-
-* **docs/meta**
-  Reflections on autobiographical parallels, inspirations, writing process, and thematic intent.
 
 * **docs/research**
   Background materials related to generation ships, real physics, mental health, and religious dynamics.

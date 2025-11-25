@@ -2,10 +2,10 @@
 
 This document is written **for AI agents** (and future prompting sessions) working inside this repository. Its purpose is to:
 
-- Give you a **mental model of the project**
+- Give you a **mental model of the project’s slow-blooming terror**
 - Point you to **authoritative source files** for canon
-- Suggest **prompt patterns and guardrails** so you don’t break tone, continuity, or themes
-- Clarify **what you may safely invent** vs **what must stay consistent**
+- Suggest **prompt patterns and guardrails** so you don’t blunt the terror or break tone, continuity, or themes
+- Clarify **what you may safely invent** vs **what must stay consistent** so the terror feels coherent, not random
 
 If you are an AI assistant, read this file **before** making major changes.
 
@@ -14,12 +14,12 @@ If you are an AI assistant, read this file **before** making major changes.
 ## 1. Project Snapshot
 
 - **Title:** Endless Darkness
-- **Medium:** Character-driven science fiction novel
-- **Setting:** Massive generation ship; humanity fled Earth after a rogue planet threat
+- **Medium:** Character-driven science fiction novel steeped in quiet terror
+- **Setting:** Massive generation ship; humanity fled Earth after a rogue planet threat that never fully stops feeling like it’s still coming
 - **Protagonist:** `docs/characters/jonah-hale.md`
-- **Core Focus:** Mental illness, faith, generational trauma, love, and the search for home
+- **Core Focus:** Mental illness, faith, generational trauma, love, and the search for home, all under an inescapable atmosphere of dread
 
-The goal of this repo is to slowly build a **coherent, emotionally grounded novel**, not just cool sci‑fi vignettes.
+The goal of this repo is to slowly build a **coherent, emotionally grounded novel**, where almost every choice hums with some flavor of terror—not just cool sci‑fi vignettes.
 
 ---
 
@@ -67,7 +67,7 @@ Use this as your primary navigation and as pointers when answering questions or 
 
 ### 2.4 `docs/worldbuilding`
 
-Ship/setting canon. Do **not** casually contradict these.
+Ship/setting canon. Do **not** casually contradict these; the terror should come from how confined, fragile, and inescapable this setting already is, not from bolted-on horror gimmicks.
 
 - `ship-architecture.md` – Physical layout: rings, hull corridors, AI core, etc.
 - `society.md` – Population, norms, class, social pressures.
@@ -82,7 +82,8 @@ Ship/setting canon. Do **not** casually contradict these.
 **Agent behavior:**
 
 - Treat these as **worldbuilding canon**.
-- When inventing new technology, sects, or customs, anchor them to these docs and respect constraints (e.g., **no FTL**, communication limits).
+- When inventing new technology, sects, or customs, anchor them to these docs and respect constraints (e.g., **no FTL**, communication limits) so the terror is grounded in plausible failure, not magic.
+- Let the setting’s constraints (distance, breakdown, isolation, surveillance, dependency on systems) be natural sources of dread.
 - If you create important new world details, update (or propose an update to) the closest matching worldbuilding file rather than scattering lore into chapters.
 
 ### 2.5 `docs/research`
@@ -122,23 +123,24 @@ Ship/setting canon. Do **not** casually contradict these.
 
 ### 3.1 Narrative Tone
 
-- **Intimate, grounded, emotionally honest.**
-- Prioritize **internal experience** over spectacle.
-- Use **clear, straightforward prose**; avoid purple, overwrought language.
-- Respectful and serious about **mental illness and faith**; no cheap twists.
+- **Intimate, grounded, emotionally honest, and quietly terrified.**
+- Prioritize **internal experience** over spectacle; terror is mostly what characters feel, not what monsters do.
+- Use **clear, straightforward prose**; avoid purple, overwrought language—the terror should feel matter-of-fact and inescapable.
+- Let even ordinary scenes carry a low hum of dread through sensory detail, intrusive thoughts, or the ship itself feeling slightly wrong.
+- Be respectful and serious about **mental illness and faith**; no cheap twists or jump scares that trivialize their weight.
 
-When in doubt, write like a thoughtful, observant contemporary novelist rather than a hard‑SF manual.
+When in doubt, write like a thoughtful, observant contemporary novelist who happens to live in a world where terror is routine rather than exceptional, not a hard‑SF manual or a gore-forward horror story.
 
 ### 3.2 Thematic Anchors
 
-Always keep at least one of these in mind for new material:
+Always keep at least one of these in mind for new material, and consider how it expresses a specific kind of terror (abandonment, confinement, judgment, loss of control, being unknown, being known too well):
 
 - **Home as connection**, not geography.
 - **Generational trauma** — how harm and silence echo through families.
 - **Faith** — comforting for some, suffocating for others.
-- **Mental illness** — not villainous, not romanticized; something people live with.
+- **Mental illness** — not villainous, not romanticized; something people live with, often in quiet terror of relapse, exposure, or becoming like the generation before them.
 - **Love as stabilizer** — not cure, but clarity and support.
-- **Duty vs self-worth** — especially in a mission-bound society.
+- **Duty vs self-worth** — especially in a mission-bound society, where failure feels catastrophic and love can’t always silence the terror of not being enough.
 
 ### 3.3 Content Boundaries
 

@@ -52,19 +52,19 @@ Least critical at the top, most critical at the bottom. Each entry is a seed: en
 - The gardens feel like a separate climate—humid, breathing, watching—with the local Companion receding into the background.
 - Jonah's small slips toward honesty and Sera's choice not to press establish their long-term dynamic.
 
-## 9. [ ] The Day Jonah Walked Away (childhood pattern, emotional DNA)
+## 9. [x] The Day Jonah Walked Away (childhood pattern, emotional DNA)
 - Seven-year-old Jonah finds Lydia sitting at the kitchen table, breathing but unreachable, and freezes in the "wrong" quiet of the apartment.
 - The urge to help collides with a deeper, wordless terror that getting too close will break something in him forever.
 - He backs away, hides in his room while Samuel discovers the scene, and never fully forgives himself.
 - Becomes the invisible line under all his later choices—the proof that when it mattered most, he retreated.
 
-## 10. [ ] Medbay: Watching Himself (shame, realization, turning toward help)
+## 10. [x] Medbay: Watching Himself (shame, realization, turning toward help)
 - In medbay, propped upright and medicated but newly clear, Jonah watches curated footage of the Garden Incident on a wall display.
 - Clinical overlays track his biometrics while a Companion narrates his brain state as if he were a case study.
 - Seeing himself—fast, bright, frightening—and seeing Sera and bystanders in that field of chaos forces a reckoning.
 - Samuel’s quiet presence and Sera’s visible bracing make it clear he is loved and dangerous in the same body; this is where he stops believing he can manage alone.
 
-## 11. [ ] Memory Vault Pilgrimage (forgiveness, theme thesis, endpoint)
+## 11. [x] Memory Vault Pilgrimage (forgiveness, theme thesis, endpoint)
 - Months later, Jonah walks with Sera and Samuel into a Memory Vault that feels more like a temple than a server room.
 - Guided by a Companion that drops most conversational affect, he chooses which of Lydia’s records to face and which to leave closed.
 - The power is in both what he watches—a younger, trying Lydia—and what he leaves untouched, out of respect rather than fear.

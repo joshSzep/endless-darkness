@@ -16,7 +16,7 @@ Least critical at the top, most critical at the bottom. Each entry is a seed: en
 - Slides into a blunt question from Alina about "catching" their mother's illness; Jonah’s deflection and her silence linger.
 - Compact way to show generational fear bleeding sideways through the family.
 
-## 3. [ ] AI's Quiet Intervention in Hydroponics (subtle AI/society tension)
+## 3. [x] AI's Quiet Intervention in Hydroponics (subtle AI/society tension)
 - Sera, alone in the rows of green, asks the local Companion what to do about Jonah.
 - The AI answers in gentle, protocol-shaped advice while rosters reconfigure and a counseling kiosk appears where none stood before.
 - Later, Jonah notices how often he "happens" to be routed past the gardens and jokes about it, half amused, half unsettled.

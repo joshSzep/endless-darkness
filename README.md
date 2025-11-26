@@ -31,9 +31,6 @@ Endless Darkness follows Jonah through formation, connection, unraveling, collap
 * **docs/outline**
   High-level arc, act structure, story beats, and thematic breakdowns.
 
-* **docs/research**
-  Background materials related to generation ships, real physics, mental health, and religious dynamics.
-
 * **docs/scenes**
   Scene seeds and exploratory narrative fragments.
 

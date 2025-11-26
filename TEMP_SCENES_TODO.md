@@ -4,13 +4,13 @@ Least critical at the top, most critical at the bottom. Each entry is a seed: en
 
 ---
 
-## 1. [ ] Sermon in the Rotational Drift (low criticality, high flavor)
+## 1. [x] Sermon in the Rotational Drift (low criticality, high flavor)
 - A multi-use hall near the rotational midline hosts a drifting congregation listening to an elder preach about Tau Ceti as promise and inheritance.
 - The talk blurs theology and mission-myth, invoking "The Ones Who Broke" as cautionary tales.
 - Jonah sits beside Samuel, body tight, counting rivets to keep from floating into the rhetoric; across the aisle, Sera stands coated in the dust of her shift, watching people more than doctrine.
 - Less about plot, more about showing how faith, mission, and stigma intertwine, and letting Jonah and Sera share air before they share words.
 
-## 2. [ ] Alina at the Rail (flexible, deepens sibling trauma)
+## 2. [x] Alina at the Rail (flexible, deepens sibling trauma)
 - On a maglev ride that cuts along the cylinder, Jonah and Alina stand by narrow viewports watching their world loop past and overhead.
 - Starts as easy sibling banter—teasing about Jonah's caution, shared jokes about never seeing certain sectors.
 - Slides into a blunt question from Alina about "catching" their mother's illness; Jonah’s deflection and her silence linger.

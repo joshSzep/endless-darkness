@@ -40,7 +40,7 @@ Least critical at the top, most critical at the bottom. Each entry is a seed: en
 - As they work, Samuel talks about trust—of materials, people, God—letting Jonah overhear rather than be preached at.
 - Leaves Jonah holding two truths at once: his father’s steadiness and his own fear that he is the part that might fail.
 
-## 7. [ ] Power Flicker in the Maintenance Corridor (first clear crack in perception)
+## 7. [x] Power Flicker in the Maintenance Corridor (first clear crack in perception)
 - On a routine solo route, a slight dimming of the lights stretches out of proportion, turning the corridor into a humming throat of metal and data.
 - In that elongated heartbeat, ship-noise layers resolve into something that feels like his mother saying his name.
 - Logs later show only a trivial power fluctuation; Jonah refuses to file an anomaly report, and the Companion blandly accepts this.

@@ -46,7 +46,7 @@ Least critical at the top, most critical at the bottom. Each entry is a seed: en
 - Logs later show only a trivial power fluctuation; Jonah refuses to file an anomaly report, and the Companion blandly accepts this.
 - Marks the moment where external ship-strain and his internal storm become indistinguishable, at least to him.
 
-## 8. [ ] First Shared Shift in the Gardens (primary Jonah–Sera bonding)
+## 8. [x] First Shared Shift in the Gardens (primary Jonah–Sera bonding)
 - Jonah arrives in hydroponics under the guise of a minor nutrient blip and finds Sera wrist-deep in systems he usually sees as abstractions.
 - Side-by-side interaction: she prunes and adjusts flow, asking pointed but non-threatening questions; he runs diagnostics and hides in technical commentary.
 - The gardens feel like a separate climate—humid, breathing, watching—with the local Companion receding into the background.

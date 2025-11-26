@@ -28,7 +28,7 @@ Least critical at the top, most critical at the bottom. Each entry is a seed: en
 - The Companion stays polite, but tiny delays and diagnostic flashes betray that something in how the ship sees him has changed.
 - Cleanest place to show why Jonah specifically terrifies the models—where brilliance and risk become statistically linked.
 
-## 5. [ ] Stability Log, Age 10 (early brush with surveillance and stigma)
+## 5. [x] Stability Log, Age 10 (early brush with surveillance and stigma)
 - A mediation room, three kids, and a Companion trained to sound reassuring as it asks its way past an incident toward a pattern.
 - Young Jonah struggles to explain his protective instinct without sounding unstable; the AI dutifully records sleep trouble, strong feelings, family context.
 - A snatch of adult conversation about his "stability profile" reveals this is about more than a single day.

@@ -34,7 +34,7 @@ Least critical at the top, most critical at the bottom. Each entry is a seed: en
 - A snatch of adult conversation about his "stability profile" reveals this is about more than a single day.
 - Plants the seed that his interior life can be captured, coded, and held against him.
 
-## 6. [ ] Samuel in the Hull Corridors (father/void, atmospheric but important)
+## 6. [x] Samuel in the Hull Corridors (father/void, atmospheric but important)
 - Jonah follows Samuel through cramped hull corridors: tethers, anchor points, and constant awareness of the thin metal between them and the dark.
 - Samuel moves with practiced ease, pausing to listen to the ship like a man listening for a beloved voice.
 - As they work, Samuel talks about trust—of materials, people, God—letting Jonah overhear rather than be preached at.

@@ -22,7 +22,7 @@ Least critical at the top, most critical at the bottom. Each entry is a seed: en
 - Later, Jonah notices how often he "happens" to be routed past the gardens and jokes about it, half amused, half unsettled.
 - Lives in the dissonance between Sera's sense of the AI as infrastructure and Jonah's terror of being managed.
 
-## 4. [ ] Integrated Too Well (AI arc intensifier, compressible if needed)
+## 4. [x] Integrated Too Well (AI arc intensifier, compressible if needed)
 - In a stark evaluation chamber, Jonah undergoes a high-level integration exercise: reading anonymized behavioral data, modeling cascading failures, syncing with Companion logic over a neural band.
 - He performs beyond expectations, anticipating outcomes faster than prompts load, seeing connections flagged as "historically atypical."
 - The Companion stays polite, but tiny delays and diagnostic flashes betray that something in how the ship sees him has changed.

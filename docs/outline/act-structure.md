@@ -14,7 +14,7 @@ Show the roots of Jonah’s identity. Establish the family, the ship, the pressu
 
 ## Key Beats
 
-* Jonah’s childhood inside the rotating generation ship that humanity has lived on for centuries.
+* Jonah’s childhood inside the rotating generation ship that humanity has lived on for millenia.
 * Early hints that the ship isn’t “haunted,” but *remembers*—it stores patterns, behaviors, emotional signatures.
 * Jonah’s early AI aptitude test, where he feels the machine looking *through* him rather than at him.
 * His father Samuel’s simple faith and unwavering presence.

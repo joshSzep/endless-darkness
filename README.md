@@ -42,4 +42,8 @@ The novel treats mental illness and faith with seriousness and respect, drawing 
 
 ## Status
 
-In active development. Chapters and structure will evolve as the manuscript grows.
+In active development.
+
+- Core worldbuilding, character bibles, and thematic outlines are in place.
+- A full rough pass of Chapters 1–20 is assembled in `chapters/`, tracking the five‑act arc from formation through restoration.
+- Scene‑level experiments in `docs/scenes/` continue to feed revisions and new passes on the main manuscript.

@@ -28,7 +28,7 @@ He adjusted the strap of his tool bag and glanced at his wrist display. The tick
 
 Low severity. Simple. The kind of thing they'd routed him to hydroponics for a dozen times in the last cycle.
 
-His hands still buzzed.
+His hands still buzzed. Somewhere under the static of adrenaline sat the flat fact of his last node shift: pre-critical trending, behavioral session booked for after this block, as if the Ship believed he could hold himself together just a little longer.
 
 Rows of greenery stretched away under the grow-lights: towers of vines, waist-high troughs humming with slow circulation, trellises heavy with broad leaves. The artificial day here was a warm spectrum, more like afternoon than the corridor's harsh white. Condensation beaded on pipes and rails. Drops fell in a slow, irregular pattern that Jonah's brain immediately tried to sync with his pulse.
 
@@ -52,13 +52,13 @@ The joke landed crooked. Sera's mouth twitched, but her eyes had already started
 
 "Uh-huh." She wiped her hands on the rag at her belt. "Ticket says main D, seven-B. I checked the plants, nothing's wilting. Companion says it's a blip."
 
-"Companion says a lot of things are blips," Jonah said. "Sometimes they're right. Sometimes they're...early."
+"Companion says a lot of things are blips," Jonah said. "Sometimes they're right. Sometimes they're...early. Sometimes they call you pre-critical and still route you into sectors with valves you can reach."
 
 He checked his display again though he knew exactly what it said. The numbers swam for a moment before they snapped into focus. Pressure oscillation, plus/minus two percent. Safeties holding. No leak detected.
 
 *Low severity*, the system insisted.
 
-His body disagreed. His heart was already too fast. Breath a little shallow. The buzz in his hands threatened to become a tremor if he looked at it directly.
+His body disagreed. His heart was already too fast. Breath a little shallow. The buzz in his hands threatened to become a tremor if he looked at it directly. It reminded him of Sera's voice in G-3 days ago, telling him she wouldn't be his only wall, especially when something in a main line felt wrong.
 
 "We can do this later," Sera said quietly. "Log it, bump it to day shift. They'll love the excuse to feel useful."
 
@@ -204,7 +204,7 @@ The valve handle was smooth under his palm. Cool, slightly damp from condensatio
 
 *If he let go*, his mind whispered, *the pattern would keep building. Somewhere, some when, the line would give. Someone would be under it. It would be his fault for walking away.*
 
-He'd already done that once.
+He'd already done that once. A doorway, his mother on the floor, a Ship that had logged his absence as neatly as any other datapoint. This time, it would log his hand on the metal instead.
 
 His grip tightened.
 
@@ -335,7 +335,7 @@ They were shaking. Not a fine tremor now, but a visible jitter, as if his skin c
 
 "Heart rate one hundred and forty-two," it said. "Respiration elevated. Behavioral indicators consistent with acute stress response. Subject is on pre-critical watch."
 
-There it was. Said aloud.
+There it was. Said aloud, not just a quiet yellow icon in a node interface he’d stared at alone.
 
 *Pre-critical.*
 

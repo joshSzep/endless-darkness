@@ -130,6 +130,8 @@ Simulation branch 2 (delay; maintain soft interventions):
 
 He continues to work under enhanced monitoring. The pre-critical tag remains, but so do his contributions. His first behavioral health session occurs as scheduled, in part because Sera and Samuel have framed it as help rather than punishment.
 
+Within this branch, several sub-scenarios surface. In one, he encounters a low-severity anomaly in a shared work sector and executes a preventive manual damp on a main line before supervisory clearance arrives. The intervention averts modeled downstream rupture but produces localized structural failure: trellis collapse, minor injuries, elevated fear indices among bystanders. Harm is contained but not erased.
+
 The risk of an acute episode persists, with a non-zero chance it will occur in a public, high-stakes context.
 
 That context would likely be one of my sectors.

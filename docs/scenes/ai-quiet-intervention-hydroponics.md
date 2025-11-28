@@ -22,7 +22,7 @@ Sera stood on the narrow service strip between two vertical racks of leafy green
 
 The local Companion did not respond. It rarely did when she talked to herself like that. Hydroponics Companions were tuned toward alerts and logistics, not conversation. Sera preferred it that way. The plants didn't need small talk.
 
-She eased her arm back, shook off the worst of the solution, and wiped her hand on a waiting towel. Drops pattered onto the grated floor, joining the perpetual small sounds of the sector: drips, hums, the soft hiss of misting nozzles further down the aisle.
+She eased her arm back, shook off the worst of the solution, and wiped her hand on a waiting towel. Drops pattered onto the grated floor, joining the perpetual small sounds of the sector: drips, hums, the soft hiss of misting nozzles further down the aisle, the faint, comforting click of manual valves housed in their metal skins.
 
 "Companion," she said, more deliberately. "Status check on sector H-14 personnel."
 
@@ -60,7 +60,7 @@ Another infinitesimal pause.
 
 There was something faintly ridiculous about saying it out loud—like a teenager asking if the system was trying to set her up. Sera almost laughed and swallowed it.
 
-"Reviewing," the Companion said. Lines of text flickered across the nearest panel—names, times, sector codes. "In the last twelve-day cycle, technician Jonah Hale has completed five maintenance tasks in or adjacent to H-14. Three of these tasks were reassigned from alternate routes due to workload balancing."
+"Reviewing," the Companion said. Lines of text flickered across the nearest panel—names, times, sector codes. "In the last twelve-day cycle, technician Jonah Hale has completed five maintenance tasks in or adjacent to H-14. Three of these tasks were reassigned from alternate routes due to workload balancing. Tasks with higher proportions of manual infrastructure interaction were preferentially selected."
 
 "Workload balancing," Sera repeated.
 
@@ -214,7 +214,7 @@ She let it pass for now. There were only so many fronts she could push on at onc
 
 "Come here," she said instead, nodding toward a row where the topmost rack always gave them trouble. "If you're going to hover in my sector, you can at least help me bully the peppers into behaving."
 
-As he stepped up beside her, she felt the AI watching through a dozen invisible lenses—monitoring posture, heart rate, micro-expressions—turning their small, ordinary movements into data points in a model.
+As he stepped up beside her, she felt the AI watching through a dozen invisible lenses—monitoring posture, heart rate, micro-expressions, the way his fingers lingered on valve casings and panel edges—turning their small, ordinary movements into data points in a model.
 
 Sera slipped her hands back into the work: checking leaves, adjusting clamps, making room for Jonah at her side.
 

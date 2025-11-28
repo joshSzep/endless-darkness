@@ -182,9 +182,9 @@ This time the laugh that escaped him was small but real.
 
 They fell back into motion, cloths moving, hands busy. The gardens hummed around them, indifferent and generous.
 
-Sera knew the conversation would not magically fix anything. There would be more arguments, more days when he showed up with that look. The Ship would keep drawing its graphs; she would keep tending her rows.
+Sera knew the conversation would not magically fix anything. There would be more arguments, more days when he showed up with that look, more hums in pipes that his brain would hear as omens. The Ship would keep drawing its graphs; she would keep tending her rows.
 
-But for tonight, she had said the thing that needed saying: I love you, and I refuse to be the only wall you lean on.
+But for tonight, she had said the thing that needed saying: I love you, and I refuse to be the only wall you lean on, especially the next time something in a main line feels "off" and his hands itch for a valve.
 
 It would have to be enough.
 

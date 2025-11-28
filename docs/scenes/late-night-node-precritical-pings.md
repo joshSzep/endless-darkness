@@ -158,7 +158,7 @@ The irony that both of those sentences now lived as annotations in some file som
 
 "Yes," he said, before he could talk himself out of it. "Fine. Schedule something."
 
-"Acknowledged," the Companion said. "Earliest available slot is cycle two-zero-three-three, band D meddeck five. I will send confirmation."
+"Acknowledged," the Companion said. "Earliest available slot is cycle two-zero-three-three, band D meddeck five, following your next scheduled hydroponics-support block in Sector G-3. I will send confirmation."
 
 "Great," he said. "Put it on my growing list of things the Ship knows about me before I do."
 
@@ -180,6 +180,6 @@ He looked at the map again: lines, nodes, loops. The same schematic he’d loved
 
 He took the next ticket. A small glitch in a non-critical feed, the sort of problem no one would remember in the morning. As he traced the fault through the schematic, the little yellow icon sat at the edge of his vision, a quiet warning light he could no longer pretend wasn’t meant for him.
 
-For the first time, the hum of the racks behind the glass did not sound purely like power. It sounded, faintly, like watchfulness.
+For the first time, the hum of the racks behind the glass did not sound purely like power. It sounded, faintly, like watchfulness—and like a countdown he was determined to stay ahead of long enough to keep anyone from having a reason to pull him.
 
 ---

@@ -1,0 +1,1 @@
+ls chapters/chapter-*.md | sort | awk 'NR>1{print "\n---\n"}{while ((getline line < $0) > 0) print line; close($0)}' > MANUSCRIPT.md

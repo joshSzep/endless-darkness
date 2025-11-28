@@ -102,8 +102,8 @@
 	Closed‑gardens argument; quiet, low‑volume fight where Jonah recognizes Lydia‑patterns in himself and Sera holds her boundaries.
 
 - `sera-sets-boundaries-in-g3.md`  
-	**Act III – 17. Sera’s Concern (echo, to be drafted)**  
-	Post-intervention shift in G-3 where Jonah treats the gardens like his personal clinic; Sera gently but firmly tells him he is not her patient and she cannot be his only stabilizer, deepening the emotional logic of their later argument.
+	**Act III – 17. Sera’s Concern (echo)**  
+	Post-intervention shift in G-3 where Jonah treats the gardens like his personal clinic; Sera gently but firmly names her limits and refuses to be his only stabilizer, insisting on a broader care plan and nudging him toward formal support.
 
 - `companion-simulates-lydia-for-risk-modeling.md`  
 	**Act III – 22. AI Concern Escalates / 19. Civilian Rumblings (system‑side core, outline)**  
@@ -114,12 +114,12 @@
 	Hydroponics break room scene after the AI’s "behavioral health optimization" routing: Sera listens as co-workers gossip about Jonah’s pre-critical status and worry about the Ship "babysitting" them, revealing both unease with Companion power and the importance of peer support.
 
 - `late-night-node-precritical-pings.md`  
-	**Act III – 22. AI Concern Escalates (Jonah-side core, to be drafted)**  
-	Late node shift where Companions bombard Jonah with "micro" wellness checks; he glimpses his own pre-critical tag, realizing the system has formally labeled him and not just "feels" concerned.
+	**Act III – 22. AI Concern Escalates (Jonah-side core)**  
+	Late node shift where Companions bombard Jonah with "micro" wellness checks; Jonah stumbles onto his own pre-critical status in the console, learning exactly how the Ship has labeled him and what interventions that authorizes.
 
 - `companion-debates-thresholds-on-jonah.md`  
-	**Act III – 22. AI Concern Escalates (system echo, to be drafted)**  
-	Regional Companion log revisiting Jonah’s flicker, hydroponics routing, and current indices in light of the Lydia model; it debates escalating to enforced rest/containment now versus continued soft interventions, pointing toward the Garden Incident.
+	**Act III – 22. AI Concern Escalates (system echo)**  
+	Regional Companion log revisiting Jonah’s flicker, hydroponics routing, and current indices in light of the Lydia model; it explicitly weighs enforced rest or containment against preserving Jonah’s autonomy and community supports, and chooses to maintain soft interventions while lowering thresholds for emergency response.
 
 ---
 

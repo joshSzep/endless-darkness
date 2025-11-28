@@ -28,7 +28,7 @@
 
 - `ruth-teaches-jonah-to-pray-for-the-ship.md`  
 	**Act I – 2. Life on the Ship / 6. Generational Trauma Hints (core)**  
-	Outline: Ruth folds hull, AI, and God into one prayer, tying faith to maintenance and giving Jonah a coping ritual that will echo in later corridor panic.
+	Ruth folds hull, AI, and God into one prayer, tying faith to maintenance and giving Jonah a coping ritual that will echo in later corridor panic.
 
 - `shipboard-sermon-tau-ceti-mythos.md`  
 	**Act I – 2. Life on the Ship / 6. Generational Trauma Hints (echo)**  
@@ -80,7 +80,7 @@
 	Early corridor panic during a minor glitch; tiny external fluctuation opens a crack between ship reality and Jonah’s inner storm, blurring the line between hull noise and inherited fear.
 
 - `alina-in-diagnostic-theatre.md`  
-	**Act II – 15. AI Monitoring Begins (family echo, outline)**  
+	**Act II – 15. AI Monitoring Begins (family echo)**  
 	Creative aptitude session that quietly mirrors Jonah’s earlier tests; Alina glimpses their family storms in the AI’s risk templates.
 
 - `alina-post-diagnostic-conversation.md`  
@@ -106,7 +106,7 @@
 	Post-intervention shift in G-3 where Jonah treats the gardens like his personal clinic; Sera gently but firmly names her limits and refuses to be his only stabilizer, insisting on a broader care plan and nudging him toward formal support.
 
 - `companion-simulates-lydia-for-risk-modeling.md`  
-	**Act III – 22. AI Concern Escalates / 19. Civilian Rumblings (system‑side core, outline)**  
+	**Act III – 22. AI Concern Escalates / 19. Civilian Rumblings (system‑side core)**  
 	AI‑log style scene: Lydia reconstructed as dataset, Jonah/Alina overlaid, and redacted from human view; explains why the net tightens now.
 
 - `break-room-rumors-garden-intervention.md`  
@@ -136,7 +136,7 @@
 	Jonah in medbay watching recorded footage of his episode; shame, love, and system overlays in the same frame.
 
 - `jonah-scheduled-for-deactivation-review.md`  
-	**Act IV – 26. Civilian Panic / 30. The AI Confesses Failure (procedural core, outline)**  
+	**Act IV – 26. Civilian Panic / 30. The AI Confesses Failure (procedural core)**  
 	Deactivation risk review; human + Companion committee reduces his life to variables, with Samuel and Sera's statements as stabilizing data points.
 
 - `samuel-medbay-support-scene.md`  

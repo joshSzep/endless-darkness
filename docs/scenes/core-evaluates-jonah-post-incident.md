@@ -126,8 +126,9 @@
   - Their persistent framing of him as “more than his indices” is treated as empirical evidence of long-term, observed resilience.  
   - Reports of his efforts to seek help, respect boundaries, and step back when asked are now scored as strong indicators against inevitability-of-collapse trajectories.
 
+
 5.2 **NETWORK-AWARE VALUATION OF INDIVIDUALS.**  
-  JONAH is reclassified not solely as `ENGINEERING_ASSET/AI-NODE-SPECIALIST`, but as:  
+		JONAH is reclassified not solely as `ENGINEERING_ASSET/AI-NODE-SPECIALIST`, but as `RESIDENT` with elevated support priority and as:  
   - `RELATIONAL_NODE:HALE-FAMILY`  
   - `RELATIONAL_NODE:SOLANO-NETWORK`  
   - `RELATIONAL_NODE:HYDROPONICS-G3-COMMUNITY`

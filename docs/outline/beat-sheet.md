@@ -22,6 +22,10 @@
 	**Act I – 4. Samuel’s Steadiness / 2. Life on the Ship (core)**  
 	Adolescent Jonah watches Samuel work the hull; father as anchor, void as presence, and the ship’s architecture/maintenance culture established.
 
+- `ordinary-family-shift-morning.md`  
+	**Act I – 2. Life on the Ship (echo)**  
+	Working-sector morning in the Hale/Marlow quarters and corridor: Samuel prepping for hull work, Lydia functioning but fragile, Ruth’s faith echo in a small departure ritual, and Jonah/Alina navigating cramped routines, grounding later crises in a lived-in sense of "normal" ship life.
+
 - `ruth-teaches-jonah-to-pray-for-the-ship.md`  
 	**Act I – 2. Life on the Ship / 6. Generational Trauma Hints (core)**  
 	Outline: Ruth folds hull, AI, and God into one prayer, tying faith to maintenance and giving Jonah a coping ritual that will echo in later corridor panic.
@@ -64,8 +68,8 @@
 	First proper Jonah–Sera interaction on shift; hydroponics as soft, humid counterpoint to metal corridors and the AI’s gaze.
 
 - `shift-change-bench-jonah-sera.md`  
-	**Act II – 11. Early Bonding (quiet core, to be drafted)**  
-	Shift-change bench outside hydroponics: Jonah and Sera share lukewarm tea, compare how they each hear Ship noise, and manage to make each other laugh once, grounding their connection in ordinary overlap rather than only crisis.
+	**Act II – 11. Early Bonding (quiet core)**  
+	Shift-change bench outside hydroponics: Jonah and Sera share lukewarm tea, compare how they each hear Ship noise, and name a small but real friendship built on ordinary overlap rather than only crisis.
 
 - `alina-at-the-rail.md`  
 	**Act II – 13. Jonah’s Emotional Fracture Line (echo)**  
@@ -80,8 +84,8 @@
 	Creative aptitude session that quietly mirrors Jonah’s earlier tests; Alina glimpses their family storms in the AI’s risk templates.
 
 - `alina-post-diagnostic-conversation.md`  
-	**Act II – 13. Jonah’s Emotional Fracture Line / 15. AI Monitoring Begins (family echo, to be drafted)**  
-	After the diagnostic, Alina corners Jonah in a quiet stairwell or niche and mentions the "HALE/MARLOW" comparator; they trade dark jokes and small comforts, and Jonah’s protective terror spikes as he sees his storms reflected in her.
+	**Act II – 13. Jonah’s Emotional Fracture Line / 15. AI Monitoring Begins (family echo)**  
+	After the diagnostic, Alina and Jonah sit in a harshly lit service stairwell, joke uneasily about the explicit "HALE/MARLOW" comparator, and agree to watch each other for "weird" Ship behavior, sharpening Jonah’s terror at seeing his storms reflected in her.
 
 ---
 
@@ -97,13 +101,25 @@
 	**Act III – 17. Sera’s Concern / 21. Jonah’s Inner Narrative Breaks (core)**  
 	Closed‑gardens argument; quiet, low‑volume fight where Jonah recognizes Lydia‑patterns in himself and Sera holds her boundaries.
 
+- `sera-sets-boundaries-in-g3.md`  
+	**Act III – 17. Sera’s Concern (echo, to be drafted)**  
+	Post-intervention shift in G-3 where Jonah treats the gardens like his personal clinic; Sera gently but firmly tells him he is not her patient and she cannot be his only stabilizer, deepening the emotional logic of their later argument.
+
 - `companion-simulates-lydia-for-risk-modeling.md`  
 	**Act III – 22. AI Concern Escalates / 19. Civilian Rumblings (system‑side core, outline)**  
 	AI‑log style scene: Lydia reconstructed as dataset, Jonah/Alina overlaid, and redacted from human view; explains why the net tightens now.
 
 - `break-room-rumors-garden-intervention.md`  
-	**Act III – 19. Civilian Rumblings (echo, to be drafted)**  
-	Hydroponics break room scene after the AI’s "behavioral health optimization" routing: workers trade distorted versions of Jonah’s pre-critical status and argue about how much they trust the Companions, turning Jonah into a whispered example of the Ship "babysitting" engineers.
+	**Act III – 19. Civilian Rumblings (echo)**  
+	Hydroponics break room scene after the AI’s "behavioral health optimization" routing: Sera listens as co-workers gossip about Jonah’s pre-critical status and worry about the Ship "babysitting" them, revealing both unease with Companion power and the importance of peer support.
+
+- `late-night-node-precritical-pings.md`  
+	**Act III – 22. AI Concern Escalates (Jonah-side core, to be drafted)**  
+	Late node shift where Companions bombard Jonah with "micro" wellness checks; he glimpses his own pre-critical tag, realizing the system has formally labeled him and not just "feels" concerned.
+
+- `companion-debates-thresholds-on-jonah.md`  
+	**Act III – 22. AI Concern Escalates (system echo, to be drafted)**  
+	Regional Companion log revisiting Jonah’s flicker, hydroponics routing, and current indices in light of the Lydia model; it debates escalating to enforced rest/containment now versus continued soft interventions, pointing toward the Garden Incident.
 
 ---
 
@@ -111,9 +127,9 @@
 
 ## Scene-to-Beat Map
 
-- (Planned) `garden-incident-live.md`  
-	**Act IV – 24. The Episode (core, to be drafted)**  
-	On‑page version of the Garden Incident that later appears via footage; anchors public stakes and Jonah’s worst fear.
+- `garden-incident-live.md`  
+	**Act IV – 24. The Episode (core)**  
+	On‑page version of the Garden Incident in G-3: minor oscillation, Jonah's unauthorized override, cascading failure, and emergency flood response that injures bystanders and anchors his worst fear in shared memory.
 
 - `medbay-watching-himself.md`  
 	**Act IV – 29. Jonah Sees Himself (core)**  
@@ -121,17 +137,31 @@
 
 - `jonah-scheduled-for-deactivation-review.md`  
 	**Act IV – 26. Civilian Panic / 30. The AI Confesses Failure (procedural core, outline)**  
-	Deactivation risk review; human + Companion committee reduces his life to variables, with Samuel and Sera’s statements as stabilizing data points.
+	Deactivation risk review; human + Companion committee reduces his life to variables, with Samuel and Sera's statements as stabilizing data points.
 
 - `samuel-medbay-support-scene.md`  
-	**Act IV – 28. Samuel’s Love (core)**  
-	Samuel sits by sedated Jonah in Medbay, telling him the fuller story of Lydia and insisting he is more than his indices, offering a counter-narrative to the Ship’s graphs.
+	**Act IV – 28. Samuel's Love (core)**  
+	Samuel sits by sedated Jonah in Medbay, telling him the fuller story of Lydia and insisting he is more than his indices, offering a counter-narrative to the Ship's graphs.
 
----
+- `hallway-outside-review-samuel-sera.md`  
+	**Act IV – 27. Human Cost in the Hallway (echo)**  
+	Short, intimate corridor scene outside the deactivation review where Samuel and Sera wait in a too-clean, too-bright hallway, listen to muffled committee voices and Ship hum, wrestle with whether sharing Jonah's data was a betrayal or a lifeline, and quietly vow to keep him from being reduced to an index in the AI's models.
+
+- `core-evaluates-jonah-post-incident.md`  
+	**Act IV – 30. The AI Confesses Failure (system-side echo)**  
+	Core/Companion log scene paralleling the review: the AI aggregates footage, Lydia-model projections, public impact metrics, and Samuel/Sera testimony, acknowledges its own threshold miscalculations in Jonah's case, updates its loss function to include relational harm, and begins to treat him as more than a failed asset.
+
+- `civilians-react-to-garden-lockdown.md`  
+	**Act IV – 25. Civilian Panic (echo)**  
+	Hydroponics-adjacent concourse scene from Sofi's POV where workers and families encounter sealed G-3 doors, Companion "no mission threat" reassurances, rumors about a worker "losing it," and a small act of neighborly care that turns Jonah's unseen episode into a whispered, complicated shipboard story.
 
 # **Act V — Restoration**
 
 ## Scene-to-Beat Map
+
+- `community-bench-after-shift.md`  
+	**Act V – 37. Community Re‑entry (echo)**  
+	Post-stabilization bench scene outside G-3 where Jonah, with Sera nearby, faces altered glances, a few awkward overcompensations, and several quiet acts of inclusion from stewards and families, showing the ship choosing to live with his story rather than reduce him to a cautionary tale.
 
 - `sera-alone-with-the-core-announcement.md`  
 	**Act V – 36. Human + AI Reconciliation (macro‑scale echo, core)**  

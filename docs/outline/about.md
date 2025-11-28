@@ -1,0 +1,1 @@
+Endless Darkness is a character‑driven science fiction novel set on a vast generation ship that has become both world and cage. As the mission AI quietly turns every life into data, Jonah Hale—a young engineer haunted by family mental illness, faith, and generational trauma—searches for a way to make real home inside the ship’s endless darkness.

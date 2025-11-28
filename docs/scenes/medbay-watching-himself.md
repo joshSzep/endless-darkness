@@ -16,15 +16,15 @@ Jonah sat propped halfway upright in the medbay bed, shoulders pressed against a
 
 Someone had dimmed the overheads. The primary light in the room came from the wall display across from him.
 
-On it, he was running.
+On it, he was in the gardens again.
 
-The footage began with sound before image: the distorted roar of a crowd in a confined space, alarms layering over human voices. Then the video resolved, smoothing from grain into clarity. The gardens filled the frame—Sector G-3, but wrong. Too many people between the rows, some scrambling, some frozen. The wet green humidity had been displaced by smoke and the harsh white of emergency floods.
+The footage began with sound before image: the distorted roar of a crowd in a confined space, alarms layering over human voices. Then the video resolved, smoothing from grain into clarity. The gardens filled the frame—Sector G-3, but wrong. Too many people between the rows, some scrambling, some frozen. The wet green humidity had been displaced by sprayed nutrient solution and the harsh white of emergency floods.
 
 Jonah watched himself shoulder into view at the edge of the image, a blur of motion that the system tagged with an outline and a name: **HALE, JONAH – AI ENGINEER (TIER 3)**.
 
-His own name, in the ship’s font, sat neatly under his moving body.
+His own name, in the ship’s font, sat neatly under his moving body. The label was the same one he’d heard in his ears as the stretcher lifted, but seeing it printed under a drenched, shaking version of himself made it feel less like identity and more like a case file.
 
-"For the record," the Companion said, "you consented to this review." 
+"For the record," the Companion said, "you consented to this review."
 
 Its voice came from the ceiling, neutral as always. Jonah’s head felt thick, but he remembered nodding when they asked. It had seemed easier than arguing. Easier than not knowing.
 
@@ -32,7 +32,9 @@ Its voice came from the ceiling, neutral as always. Jonah’s head felt thick, b
 
 There was a soft chime of acknowledgment. The footage ticked forward.
 
-He saw the moment the nutrient main had ruptured: a shudder through the frame, a spray of fluid and shattered piping, the sudden sag of a trellis overloaded by weight and panic. Someone screamed off-camera. Overlays blossomed in the corners of the image—pressure loss, flow rates, structural load estimates. The world he knew as numbers had become debris and bodies.
+He saw himself at the manual panel, hand on the valve Ruth would have called a "hand that holds the Ship." Heard his own voice, tinny through the room speakers, invoking an emergency override that hadn’t technically existed.
+
+Then the moment the nutrient main ruptured: a shudder through the frame, a spray of fluid and shattered piping, the sudden sag of a trellis overloaded by weight and panic. Someone screamed off-camera. Overlays blossomed in the corners of the image—pressure loss, flow rates, structural load estimates. The world he knew as numbers had become debris and bodies.
 
 His on-screen self moved like he’d been cut loose from gravity. He vaulted over a toppled rack, hit the deck in a low crouch, and shoved a support strut upright with a force that made the muscles in Jonah’s real arms ache in sympathy.
 

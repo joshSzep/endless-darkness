@@ -4,229 +4,139 @@
 
 # **Act I — Formation**
 
-### **1. Opening Image**
+## Scene-to-Beat Map
 
-* Jonah as a child navigating the corridors of the generation ship, already hyper-aware, already afraid of doing something wrong.
+- `the-day-jonah-walked-away.md`  
+	**Act I – 3. Lydia’s Shadow (core)**  
+	Young Jonah freezes in the doorway instead of helping Lydia; establishes his core wound and "if I get close, I break things" pattern.
 
-### **2. Life on the Ship**
+- `stability-log-age-10.md`  
+	**Act I – 7. Ship Culture & Stigma (core)**  
+	Behavioral Stability mediation scene; Jonah experiences his inner life turned into data and learns his family can be logged as "stability" risks.
 
-* Environmental establishment: rotating decks, gravity shifts, communal routines, the myth of the Mission.
-* The ship observes everything through subtle sensors; Jonah notices this before most kids do.
+- `jonah-early-ai-aptitude-test.md`  
+	**Act I – 5. AI Aptitude Test (core)**  
+	Quiet, clinical first encounter with deeper AI evaluation; he feels the machine looking *through* him and senses higher stakes than adults admit.
 
-### **3. Lydia’s Shadow**
+- `samuel-in-the-hull-corridors.md`  
+	**Act I – 4. Samuel’s Steadiness / 2. Life on the Ship (core)**  
+	Adolescent Jonah watches Samuel work the hull; father as anchor, void as presence, and the ship’s architecture/maintenance culture established.
 
-* Lydia’s depressive episodes, the atmosphere they create.
-* The moment young Jonah freezes in the doorway instead of approaching her. His lifelong pattern forms here.
+- `ruth-teaches-jonah-to-pray-for-the-ship.md`  
+	**Act I – 2. Life on the Ship / 6. Generational Trauma Hints (core)**  
+	Outline: Ruth folds hull, AI, and God into one prayer, tying faith to maintenance and giving Jonah a coping ritual that will echo in later corridor panic.
 
-### **4. Samuel’s Steadiness**
+- `shipboard-sermon-tau-ceti-mythos.md`  
+	**Act I – 2. Life on the Ship / 6. Generational Trauma Hints (echo)**  
+	Working‑sector worship hall; Tau Ceti as myth and mission, Jonah absorbing mission-as-calling language alongside family faith.
 
-* Samuel models patience and quiet faith. Jonah clings to this without fully understanding it.
+- `sermon-in-the-rotational-drift.md`  
+	**Act II – 12. Maternal History Reopened (echo into faith context)**  
+	Later sermon in a different hall; used as a structural echo to show Jonah older, comparing mythic Tau Ceti rhetoric with his engineer brain.
 
-### **5. AI Aptitude Test**
+- `alina-and-jonah-night-in-the-viewport-niche.md`  
+	**Act I – 1. Opening Image / 2. Life on the Ship (core)**  
+	Small viewport niche; siblings watch the literal nothing outside. Establishes ship-scale confinement, Jonah’s hyper‑vigilance, and Alina as mirror.
 
-* Jonah is taken for early cognitive evaluation.
-* He feels the AI “looking through” him.
-* First hint the ship is not haunted, but memory-driven.
-
-### **6. Generational Trauma Hints**
-
-* Jonah overhears arguments about Lydia’s parents, their mistakes, their guilt.
-* He absorbs the belief that brokenness is inherited.
-
-### **7. Ship Culture & Stigma**
-
-* Ship keeps “Behavioral Stability Logs.”
-* Families with flagged members are treated differently.
-
-### **8. End of Act Image**
-
-* Jonah entering young adulthood, isolated, brilliant, emotionally locked.
-
-### **Act I Break**
-
-**Jonah chooses distance as his survival strategy.**
+- `stability-log-age-10.md` + `the-day-jonah-walked-away.md` (pairing note)  
+	These function together as **Act I spine**: family depression → institutional logging → Jonah’s belief that his emotions are dangerous variables.
 
 ---
 
 # **Act II — Connection**
 
-### **9. The Meet**
+## Scene-to-Beat Map
 
-* Jonah meets Sera Solano during a systems audit.
-* Chemistry immediately clashes with Jonah’s defensive instincts.
+- `family-dinner-on-the-eve-of-jonah-eval.md`  
+	**Act II – bridge from 11. Early Bonding into 12. Maternal History Reopened (core)**  
+	Pre‑evaluation dinner; faith, expectations, and mental-health anxiety in one room the night before a major AI track assessment.
 
-### **10. Sera Pushes, Jonah Retreats**
+- `jonah-ai-engineer-training-eval.md`  
+	**Act II – 11. Early Bonding (professional) / 15. AI Monitoring Begins (core)**  
+	Early–mid training evaluation; shows Jonah’s competence and the way "routine" psychological monitoring feeds his terror of being judged unfit.
 
-* She asks personal questions; he answers technically.
-* She calls him out on the way he dodges intimacy without attacking him.
+- `integrated-too-well.md` or `jonah-integrated-eval-too-well.md`  
+	**Late Act II / early Act III – 16. Hypomanic Surge / 22. AI Concern Escalates (core – choose one canonical draft)**  
+	Integrated evaluation where the network demonstrates how thoroughly it knows him, classifying him as both asset and risk.
 
-### **11. Early Bonding**
+- `first-shared-shift-in-the-gardens.md`  
+	**Act II – 9. The Meet / 11. Early Bonding (core)**  
+	First proper Jonah–Sera interaction on shift; hydroponics as soft, humid counterpoint to metal corridors and the AI’s gaze.
 
-* They share maintenance shifts, shuttle rides, off-hours conversations.
-* Jonah feels seen—good and bad.
+- `alina-at-the-rail.md`  
+	**Act II – 13. Jonah’s Emotional Fracture Line (echo)**  
+	Maglev ride; Alina articulates scale and mood, Jonah in reluctant caretaker role, reinforcing inheritance and ship vastness.
 
-### **12. Maternal History Reopened**
+- `power-flicker-in-the-maintenance-corridor.md` or `jonah-power-flicker-corridor.md`  
+	**Act II – 16. Hypomanic Surge / 18. Ghost‑Logic Patterns (core – choose one canonical draft)**  
+	Early corridor panic during a minor glitch; tiny external flicker opens crack between ship reality and Jonah’s inner storm.
 
-* Jonah explores archival records and messages from his grandparents.
-* He discovers they tried to help Lydia but failed in human ways, not malicious ones.
-
-### **13. Jonah’s Emotional Fracture Line**
-
-* Patterns emerge: when closeness grows, Jonah’s anxiety spikes.
-
-### **14. First Misstep**
-
-* Jonah disappears for a few hours during a minor anxiety episode.
-* Sera doesn’t abandon him; she addresses it directly.
-
-### **15. AI Monitoring Begins**
-
-* Unbeknownst to Jonah, his behavioral logs show emerging patterns.
-* The AI begins running comparisons to historical instability cases.
-
-### **End of Act Image**
-
-* Jonah shakes as he admits aloud he loves Sera.
-
-### **Act II Break**
-
-**Love triggers Jonah’s deepest fear: being known.**
+- `alina-in-diagnostic-theatre.md`  
+	**Act II – 15. AI Monitoring Begins (family echo, outline)**  
+	Creative aptitude session that quietly mirrors Jonah’s earlier tests; Alina glimpses their family storms in the AI’s risk templates.
 
 ---
 
 # **Act III — Unraveling**
 
-### **16. Hypomanic Surge**
+## Scene-to-Beat Map
 
-* Jonah sleeps less, talks faster, takes on too much.
-* He reconfigures a navigation subsystem without clearance.
+- `ai-quiet-intervention-hydroponics.md`  
+	**Act III – 22. AI Concern Escalates (core)**  
+	Sera POV; Companion routing Jonah to her sector as "behavioral health optimization" and labeling him pre‑critical while using gardens as a stabilizing environment.
 
-### **17. Sera’s Concern**
+- `jonah-sera-first-real-argument.md`  
+	**Act III – 17. Sera’s Concern / 21. Jonah’s Inner Narrative Breaks (core)**  
+	Closed‑gardens argument; quiet, low‑volume fight where Jonah recognizes Lydia‑patterns in himself and Sera holds her boundaries.
 
-* She confronts him gently.
-* Jonah insists he’s fine—he’s “finally doing things right.”
+- `companion-simulates-lydia-for-risk-modeling.md`  
+	**Act III – 22. AI Concern Escalates / 19. Civilian Rumblings (system‑side core, outline)**  
+	AI‑log style scene: Lydia reconstructed as dataset, Jonah/Alina overlaid, and redacted from human view; explains why the net tightens now.
 
-### **18. Ghost-Logic Patterns**
-
-* Jonah sees patterns in telemetry and shadow shapes in the decks.
-* Early hallucinations blur with ship noise.
-
-### **19. Civilian Rumblings**
-
-* The AI flags Jonah for monitoring.
-* Civilians—already distrustful—begin spreading rumors about AI overreach.
-
-### **20. Samuel Intervenes**
-
-* Samuel offers quiet presence. Jonah brushes him off with brittle optimism.
-
-### **21. Jonah’s Inner Narrative Breaks**
-
-* He begins to fear he is becoming Lydia in fast-forward.
-
-### **22. AI Concern Escalates**
-
-* The AI adds Jonah to its “pre-critical” watchlist based on emerging clusters.
-* It prepares to intervene.
-
-### **23. The Slip**
-
-* Jonah loses hours of memory during a maintenance shift.
-* Realizes, with terror, that he is no longer in control.
-
-### **End of Act Image**
-
-* Jonah alone in a dark maintenance corridor, shaking, believing he is dangerous.
-
-### **Act III Break**
-
-**Jonah must face what he has been outrunning since childhood.**
+- `power-flicker-in-the-maintenance-corridor.md` / `jonah-power-flicker-corridor.md` (placement note)  
+	If pushed later, can serve as **Act III – 23. The Slip (echo)** – an escalation from unease to near blackout of control in the same corridor geography.
 
 ---
 
 # **Act IV — Collapse**
 
-### **24. The Episode**
+## Scene-to-Beat Map
 
-* Jonah spirals into a severe manic-depressive crash.
-* He hides in the industrial decks, hallucinating the ship calling to him.
+- (Planned) `garden-incident-live.md`  
+	**Act IV – 24. The Episode (core, to be drafted)**  
+	On‑page version of the Garden Incident that later appears via footage; anchors public stakes and Jonah’s worst fear.
 
-### **25. AI Intervention**
+- `medbay-watching-himself.md`  
+	**Act IV – 29. Jonah Sees Himself (core)**  
+	Jonah in medbay watching recorded footage of his episode; shame, love, and system overlays in the same frame.
 
-* The AI activates a public containment protocol.
-* Jonah is sedated and brought to medbay.
+- `jonah-scheduled-for-deactivation-review.md`  
+	**Act IV – 26. Civilian Panic / 30. The AI Confesses Failure (procedural core, outline)**  
+	Deactivation risk review; human + Companion committee reduces his life to variables, with Samuel and Sera’s statements as stabilizing data points.
 
-### **26. Civilian Panic**
-
-* Some civilians demand he be exiled or isolated.
-* Others condemn the AI for authoritarian overreach.
-
-### **27. Sera’s Decision**
-
-* She stays, even as Jonah tells her to go.
-* She holds his hand during evaluations.
-
-### **28. Samuel’s Love**
-
-* Samuel sits with him for hours, offering gentle stories from Lydia’s life Jonah never heard.
-
-### **29. Jonah Sees Himself**
-
-* He watches footage of his episode and breaks.
-* Admits he needs help.
-
-### **30. The AI Confesses Failure**
-
-* The AI reveals logs showing it handled Lydia poorly decades earlier.
-* It has been trying not to repeat its failure.
-
-### **31. Jonah’s Surrender**
-
-* Jonah accepts treatment, accepts imperfection, accepts that he cannot outrun this.
-
-### **Act IV Climax**
-
-**Jonah breaks open—and is not abandoned.**
+- (Samuel‑centric medbay/support scene – TBD)  
+	**Act IV – 28. Samuel’s Love (to be drafted)**  
+	Father’s quiet presence during or around medbay/review, giving Jonah new stories about Lydia.
 
 ---
 
 # **Act V — Restoration**
 
-### **32. Stabilization**
+## Scene-to-Beat Map
 
-* Jonah begins medication, therapy, routine.
-* The world regains shape slowly.
+- `sera-alone-with-the-core-announcement.md`  
+	**Act V – 36. Human + AI Reconciliation (macro‑scale echo, outline)**  
+	Sera hears a rare, Core‑voiced announcement about updated safeguards and answers it with a small act of care in the gardens.
 
-### **33. Repairing With Sera**
+- `memory-vault-pilgrimage.md`  
+	**Act V – 35. Rewriting the Narrative (core)**  
+	Jonah, Sera, and Samuel access Lydia’s archived life; forgiveness without erasing harm, and reframing inheritance.
 
-* They rebuild conversations, trust, rituals.
-* Jonah practices emotional honesty instead of hiding.
+- `ordinary-managed-day-on-meds.md`  
+	**Act V – 32. Stabilization / 37. Community Re‑entry (core)**  
+	Post‑medbay ordinary day: pillbox ritual, Companion health surveys, low‑stakes teaching work, brief hydroponics visit with Sera, and Samuel/Alina contact; shows lived texture of treatment, boundaries, and cautious reintegration.
 
-### **34. Samuel as Anchor**
+- (Final observation‑port scene – TBD)  
+	**Act V – 38. Final Quiet Moment (to be drafted)**  
+	Jonah at a window or hull vantage, feeling held rather than erased by the dark.
 
-* Samuel continues grounding Jonah.
-* Jonah starts seeing his father as a model, not a savior.
-
-### **35. Rewriting the Narrative**
-
-* Jonah revisits Lydia’s archives.
-* Forgives her, her parents, and himself.
-
-### **36. Human + AI Reconciliation**
-
-* Jonah and the AI collaborate on a civilian–AI policy reform around mental health.
-* The ship acknowledges that memory can wound too.
-
-### **37. Community Re-entry**
-
-* Jonah integrates slowly back into work and communal life.
-* He finds belonging in small moments.
-
-### **38. Final Quiet Moment**
-
-* Jonah stands at an observation port, the endless dark outside.
-* He feels stillness instead of fear.
-
-### **Act V Resolution**
-
-**Jonah finds home inside himself, not in the void or in the past.**

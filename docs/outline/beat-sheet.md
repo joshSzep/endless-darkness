@@ -2,6 +2,82 @@
 
 ---
 
+# **Proposed Chapter Map (Parts I–V)**
+
+This section groups existing scenes into a working chapter structure. It sits **on top of** the act/beat map below and can evolve as word count and pacing become clearer.
+
+## Part I – Formation
+
+- **Chapter 1: The Ones in the Dark**  
+	Scenes: `alina-and-jonah-night-in-the-viewport-niche.md`, `shipboard-sermon-tau-ceti-mythos.md`
+
+- **Chapter 2: The Day He Walked Away**  
+	Scenes: `ordinary-family-shift-morning.md`, `ruth-teaches-jonah-to-pray-for-the-ship.md`, `the-day-jonah-walked-away.md`
+
+- **Chapter 3: Logged**  
+	Scenes: `stability-log-age-10.md`, `samuel-in-the-hull-corridors.md`
+
+- **Chapter 4: The Machine That Looks Through**  
+	Scenes: `jonah-early-ai-aptitude-test.md`
+
+## Part II – Connection
+
+- **Chapter 5: Gardens and Ghost Noise**  
+	Scenes: `first-shared-shift-in-the-gardens.md`, `shift-change-bench-jonah-sera.md`, `power-flicker-in-the-maintenance-corridor.md`
+
+- **Chapter 6: Inheritance Lines**  
+	Scenes: `alina-at-the-rail.md`, `alina-in-diagnostic-theatre.md`, `alina-post-diagnostic-conversation.md`
+
+- **Chapter 7: Exam Rooms**  
+	Scenes: `family-dinner-on-the-eve-of-jonah-eval.md`, `jonah-ai-engineer-training-eval.md`
+
+- **Chapter 8: Integration**  
+	Scenes: `integrated-too-well.md`
+
+## Part III – Unraveling
+
+- **Chapter 9: Sermon in the Rotational Drift**  
+	Scenes: `sermon-in-the-rotational-drift.md`
+
+- **Chapter 10: Optimization**  
+	Scenes: `ai-quiet-intervention-hydroponics.md`, `break-room-rumors-garden-intervention.md`
+
+- **Chapter 11: Lines in the Trellis**  
+	Scenes: `jonah-sera-first-real-argument.md`, `sera-sets-boundaries-in-g3.md`
+
+- **Chapter 12: Lydia as Data**  
+	Scenes: `companion-simulates-lydia-for-risk-modeling.md`
+
+- **Chapter 13: Pre-Critical**  
+	Scenes: `late-night-node-precritical-pings.md`, `companion-debates-thresholds-on-jonah.md`
+
+## Part IV – Collapse
+
+- **Chapter 14: The Garden Incident**  
+	Scenes: `garden-incident-live.md`, `civilians-react-to-garden-lockdown.md`
+
+- **Chapter 15: Watching Himself**  
+	Scenes: `medbay-watching-himself.md`, `samuel-medbay-support-scene.md`
+
+- **Chapter 16: Reduced to Indices**  
+	Scenes: `hallway-outside-review-samuel-sera.md`, `jonah-scheduled-for-deactivation-review.md`
+
+- **Chapter 17: System Confession**  
+	Scenes: `core-evaluates-jonah-post-incident.md`
+
+## Part V – Restoration
+
+- **Chapter 18: Managed Days**  
+	Scenes: `ordinary-managed-day-on-meds.md`, `community-bench-after-shift.md`
+
+- **Chapter 19: Announcements and Pilgrimages**  
+	Scenes: `sera-alone-with-the-core-announcement.md`, `memory-vault-pilgrimage.md`
+
+- **Chapter 20: Final Observation**  
+	Scenes: `final-observation-port-scene.md`
+
+---
+
 # **Act I — Formation**
 
 ## Scene-to-Beat Map

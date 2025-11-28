@@ -35,7 +35,7 @@ The tiny table in the main room held three things: a chipped mug, a folded cloth
 
 The case was transparent, segmented into little compartments labeled with Samuel's neat, blocky handwriting: **MORNING**, **MID**, **EVENING**. Beneath each, the sharp corners of tablets pressed against plastic. A note lay beside it, written on the back of an old maintenance tag.
 
-*You are not a problem to solve. Love, Dad.*
+*You are not a problem to solve. More than your indices. Love, Dad.*
 
 Jonah picked up the note, thumb smoothing over the crease where Samuel had folded it in half. The words still made something in his chest tighten and loosen at the same time.
 

@@ -14,7 +14,7 @@ Not the warm white of grow-lights in hydroponics, or the scuffed off‑white of 
 
 Jonah sat propped halfway upright in the medbay bed, shoulders pressed against an incline that hissed faintly when he moved. A restraint foam band lay unused at the side of the mattress, its velcro mouth open like it had been expecting more trouble than he was currently giving.
 
-Someone had dimmed the overheads. The primary light in the room came from the wall display across from him.
+Someone had dimmed the overheads. The primary light in the room came from the wall display across from him, bright enough to wash the white into something flatter, more like the light of a case review than a sickroom.
 
 On it, he was in the gardens again.
 
@@ -24,7 +24,7 @@ Jonah watched himself shoulder into view at the edge of the image, a blur of mot
 
 His own name, in the ship’s font, sat neatly under his moving body. The label was the same one he’d heard in his ears as the stretcher lifted, but seeing it printed under a drenched, shaking version of himself made it feel less like identity and more like a case file.
 
-"For the record," the Companion said, "you consented to this review."
+"For the record," the Companion said, "you consented to this review." Its light ring pulsed once in the corner of the room, the same gentle rhythm that now followed him into lifts and morning surveys.
 
 Its voice came from the ceiling, neutral as always. Jonah’s head felt thick, but he remembered nodding when they asked. It had seemed easier than arguing. Easier than not knowing.
 
@@ -56,7 +56,7 @@ Jonah swallowed. "Curated how?"
 
 A chair creaked softly to his right. Samuel shifted his weight, big hands folded loosely between his knees. He’d been sitting there since Jonah woke up—silent, present, like another piece of medbay furniture that refused to be anything but human.
 
-"You can stop if it’s too much," Samuel said.
+"You can stop if it’s too much," Samuel said. His voice sounded the same here as it had on Jonah’s apartment mornings: unhurried, as if he trusted there would still be time to finish the sentence.
 
 Jonah kept his eyes on the screen.
 

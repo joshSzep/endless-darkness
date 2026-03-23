@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Endless Darkness</title>
+  <meta name="description" content="A literary science fiction novel by Joshua Szepietowski, set aboard a generation ship where inherited pressure, faith, surveillance, and tenderness coexist in the dark.">
+  <style>
+    :root {
+      --bg: #07090c;
+      --bg-elevated: rgba(17, 22, 28, 0.86);
+      --bg-panel: rgba(10, 14, 18, 0.84);
+      --line: rgba(175, 188, 201, 0.18);
+      --line-strong: rgba(201, 182, 133, 0.35);
+      --text: #e8e2d6;
+      --muted: #a9b0b5;
+      --muted-strong: #c5c8c9;
+      --accent: #b9a274;
+      --accent-cool: #7b94a6;
+      --shadow: rgba(0, 0, 0, 0.45);
+      --reading-width: 42rem;
+      --content-width: 76rem;
+      --hero-width: 82rem;
+      --body-font: Georgia, 'Times New Roman', serif;
+      --display-font: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+      --ui-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      background:
+        radial-gradient(circle at top, rgba(94, 112, 130, 0.12), transparent 32%),
+        linear-gradient(180deg, #0a0d10 0%, #050608 42%, #08090c 100%);
+      background-color: var(--bg);
+    }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: var(--body-font);
+      line-height: 1.7;
+      background:
+        linear-gradient(180deg, rgba(8, 10, 13, 0.88), rgba(5, 7, 9, 0.96)),
+        repeating-linear-gradient(180deg, transparent 0, transparent 3px, rgba(255, 255, 255, 0.012) 3px, rgba(255, 255, 255, 0.012) 4px),
+        radial-gradient(circle at 20% 10%, rgba(120, 138, 156, 0.08), transparent 25%),
+        radial-gradient(circle at 80% 0%, rgba(185, 162, 116, 0.06), transparent 22%),
+        var(--bg);
+      min-height: 100vh;
+      letter-spacing: 0.01em;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.02) 48%, transparent 100%),
+        radial-gradient(circle at 50% -10%, rgba(255, 255, 255, 0.06), transparent 35%);
+      opacity: 0.38;
+      mix-blend-mode: screen;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .shell {
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .shell::before,
+    .shell::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .shell > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .shell::before {
+      background:
+        linear-gradient(90deg, transparent 0%, rgba(185, 162, 116, 0.05) 48%, transparent 100%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 12%, transparent 88%, rgba(255, 255, 255, 0.02));
+      opacity: 0.4;
+    }
+
+    .shell::after {
+      background-image:
+        linear-gradient(rgba(169, 176, 181, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(169, 176, 181, 0.04) 1px, transparent 1px);
+      background-size: 100% 9rem, 9rem 100%;
+      mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), transparent 90%);
+      opacity: 0.12;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(18px);
+      background: rgba(6, 8, 10, 0.72);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .topbar-inner {
+      width: min(calc(100% - 2rem), var(--content-width));
+      margin: 0 auto;
+      padding: 0.85rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .wordmark {
+      font-family: var(--display-font);
+      font-size: 0.92rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--muted-strong);
+      white-space: nowrap;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-family: var(--ui-font);
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .nav a {
+      padding: 0.35rem 0;
+      position: relative;
+    }
+
+    .nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--accent), transparent);
+      opacity: 0;
+      transform: scaleX(0.65);
+      transition: opacity 220ms ease, transform 220ms ease;
+    }
+
+    .nav a:hover::after,
+    .nav a:focus-visible::after {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+
+    main {
+      width: 100%;
+    }
+
+    section {
+      position: relative;
+    }
+
+    .hero {
+      width: min(calc(100% - 2rem), var(--hero-width));
+      margin: 0 auto;
+      padding: 5rem 0 3rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 0.82fr);
+      gap: 3.5rem;
+      align-items: center;
+    }
+
+    .eyebrow {
+      margin: 0 0 1rem;
+      color: var(--accent);
+      font-family: var(--ui-font);
+      font-size: 0.74rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: var(--display-font);
+      font-size: clamp(3.2rem, 9vw, 6.3rem);
+      line-height: 0.92;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      text-wrap: balance;
+      max-width: 12ch;
+    }
+
+    .author {
+      margin: 1.1rem 0 0;
+      color: var(--muted-strong);
+      font-size: 1rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-family: var(--ui-font);
+    }
+
+    .hero-line {
+      margin: 1.8rem 0 0;
+      max-width: 38rem;
+      font-size: clamp(1.1rem, 2vw, 1.35rem);
+      color: var(--text);
+      text-wrap: balance;
+    }
+
+    .hero-copy {
+      margin: 1.5rem 0 0;
+      max-width: 38rem;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .hero-meta {
+      margin: 2rem 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      color: var(--muted);
+      font-family: var(--ui-font);
+      font-size: 0.74rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .hero-meta span {
+      padding: 0.55rem 0.75rem;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .cta-row {
+      margin: 2.2rem 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      align-items: center;
+    }
+
+    .button,
+    .ghost-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 3.2rem;
+      padding: 0.85rem 1.25rem;
+      border: 1px solid transparent;
+      font-family: var(--ui-font);
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      transition: transform 220ms ease, border-color 220ms ease, background 220ms ease, box-shadow 220ms ease;
+    }
+
+    .button {
+      color: #0a0d10;
+      background: linear-gradient(180deg, #d2c3a0, #ae9365);
+      box-shadow: 0 0.9rem 2.5rem rgba(0, 0, 0, 0.35);
+    }
+
+    .ghost-button {
+      color: var(--muted-strong);
+      border-color: var(--line);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .button:hover,
+    .button:focus-visible,
+    .ghost-button:hover,
+    .ghost-button:focus-visible {
+      transform: translateY(-1px);
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      box-shadow: 0 1.2rem 2.8rem rgba(0, 0, 0, 0.42);
+    }
+
+    .ghost-button:hover,
+    .ghost-button:focus-visible {
+      border-color: var(--line-strong);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .hero-visual {
+      justify-self: end;
+      width: min(100%, 25rem);
+      padding: 1rem;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(180deg, rgba(22, 28, 34, 0.72), rgba(11, 14, 19, 0.96)),
+        var(--bg-panel);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.04),
+        0 2rem 5rem rgba(0, 0, 0, 0.45);
+      position: relative;
+    }
+
+    .hero-visual::before {
+      content: "Structural observation / stable for now";
+      position: absolute;
+      top: -0.7rem;
+      left: 1rem;
+      padding: 0.18rem 0.5rem;
+      background: #0b0f14;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-family: var(--ui-font);
+      font-size: 0.63rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .cover-frame {
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: linear-gradient(180deg, rgba(6, 8, 10, 0.22), rgba(255, 255, 255, 0.02));
+      padding: 0.8rem;
+    }
+
+    .cover-frame img {
+      width: 100%;
+      height: auto;
+      box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.48);
+    }
+
+    .visual-caption {
+      margin: 0.9rem 0 0;
+      padding-top: 0.8rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--muted);
+      font-family: var(--ui-font);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .section-block {
+      width: min(calc(100% - 2rem), var(--content-width));
+      margin: 0 auto;
+      padding: 2rem 0 0;
+    }
+
+    .panel {
+      padding: clamp(1.5rem, 3vw, 2.4rem);
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(180deg, rgba(16, 20, 24, 0.88), rgba(7, 9, 12, 0.92)),
+        var(--bg-elevated);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+    }
+
+    .section-heading {
+      margin: 0;
+      font-family: var(--display-font);
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      line-height: 1.05;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .section-label {
+      margin: 0 0 0.8rem;
+      color: var(--accent-cool);
+      font-family: var(--ui-font);
+      font-size: 0.72rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+    }
+
+    .positioning-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(16rem, 0.75fr);
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .positioning-copy p,
+    .download-copy p {
+      margin: 0;
+      color: var(--muted-strong);
+      font-size: 1.06rem;
+    }
+
+    .signal-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 0.75rem;
+      color: var(--muted);
+      font-family: var(--ui-font);
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .signal-list li {
+      padding: 0.8rem 0.9rem;
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      background: rgba(255, 255, 255, 0.025);
+    }
+
+    .reading-section {
+      width: min(calc(100% - 2rem), calc(var(--reading-width) + 10rem));
+      margin: 0 auto;
+      padding: 4.5rem 0 0;
+    }
+
+    .reading-intro {
+      max-width: var(--reading-width);
+      margin: 0 auto 2rem;
+      padding: 0 0.25rem;
+    }
+
+    .reading-intro p {
+      margin: 1rem 0 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .chapter-panel {
+      position: relative;
+      z-index: 2;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(180deg, rgba(14, 17, 21, 0.95), rgba(7, 9, 12, 0.98)),
+        #090b0f;
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.035),
+        0 1.8rem 4rem rgba(0, 0, 0, 0.34);
+      overflow: hidden;
+    }
+
+    .chapter-panel::before {
+      content: "Chapter access / close-reading mode";
+      display: block;
+      padding: 0.9rem 1.3rem;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-family: var(--ui-font);
+      font-size: 0.68rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      background: rgba(255, 255, 255, 0.025);
+    }
+
+    .chapter-content {
+      max-width: var(--reading-width);
+      margin: 0 auto;
+      position: relative;
+      z-index: 3;
+      padding: clamp(1.6rem, 4vw, 3.2rem) clamp(1.1rem, 4vw, 2.4rem) clamp(2.4rem, 5vw, 3.6rem);
+      font-size: clamp(1.03rem, 1.8vw, 1.14rem);
+      line-height: 1.9;
+      color: #eee7db;
+    }
+
+    .chapter-content h1,
+    .chapter-content h2,
+    .chapter-content h3 {
+      max-width: none;
+      margin-left: 0;
+      margin-right: 0;
+      text-transform: none;
+      letter-spacing: 0.01em;
+      line-height: 1.1;
+      text-wrap: pretty;
+    }
+
+    .chapter-content h1 {
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      font-size: clamp(2rem, 4vw, 2.85rem);
+      font-family: var(--display-font);
+    }
+
+    .chapter-content h2 {
+      margin-top: 2.4rem;
+      margin-bottom: 1rem;
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      font-family: var(--display-font);
+      color: var(--text);
+    }
+
+    .chapter-content h3 {
+      margin-top: 1.9rem;
+      margin-bottom: 0.8rem;
+      font-size: 1.2rem;
+      font-family: var(--display-font);
+      color: var(--muted-strong);
+    }
+
+    .chapter-content p {
+      margin: 0 0 1.3rem;
+      text-wrap: pretty;
+    }
+
+    .chapter-content hr {
+      border: 0;
+      height: 1px;
+      margin: 2.4rem auto;
+      width: 5rem;
+      background: linear-gradient(90deg, transparent, rgba(185, 162, 116, 0.7), transparent);
+    }
+
+    .chapter-content em {
+      color: #f2ece0;
+    }
+
+    .download-section {
+      width: min(calc(100% - 2rem), 62rem);
+      margin: 0 auto;
+      padding: 4.5rem 0 5.5rem;
+    }
+
+    .download-panel {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .download-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .closing-visual-section {
+      width: min(calc(100% - 2rem), var(--content-width));
+      margin: 0 auto;
+      padding: 0 0 3.5rem;
+    }
+
+    .closing-visual-panel {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(180deg, rgba(13, 17, 22, 0.92), rgba(7, 9, 12, 0.98)),
+        var(--bg-panel);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.03),
+        0 2rem 4.8rem rgba(0, 0, 0, 0.35);
+    }
+
+    .closing-visual-copy {
+      position: absolute;
+      inset: auto auto 0 0;
+      width: min(100%, 34rem);
+      padding: clamp(1.25rem, 3vw, 2rem);
+      background: linear-gradient(180deg, rgba(7, 9, 12, 0.18), rgba(7, 9, 12, 0.88));
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      border-right: 1px solid rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(8px);
+    }
+
+    .closing-visual-copy p {
+      margin: 0.9rem 0 0;
+      color: var(--muted-strong);
+      font-size: 1rem;
+      max-width: 30rem;
+    }
+
+    .closing-visual-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      filter: saturate(0.9) contrast(1.02) brightness(0.9);
+    }
+
+    footer {
+      width: min(calc(100% - 2rem), var(--content-width));
+      margin: 0 auto;
+      padding: 0 0 2rem;
+      color: var(--muted);
+      font-family: var(--ui-font);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 1.1rem;
+    }
+
+    @media (max-width: 58rem) {
+      .hero,
+      .positioning-grid,
+      .download-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 3.8rem;
+      }
+
+      .hero-visual {
+        justify-self: start;
+        width: min(100%, 22rem);
+      }
+
+      .download-actions {
+        justify-content: flex-start;
+      }
+
+      .closing-visual-copy {
+        position: static;
+        width: 100%;
+        border-right: 0;
+      }
+
+      footer {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 40rem) {
+      .topbar-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav {
+        flex-wrap: wrap;
+        gap: 0.7rem 1rem;
+      }
+
+      .hero {
+        gap: 2.2rem;
+      }
+
+      h1 {
+        font-size: clamp(2.7rem, 16vw, 4.2rem);
+      }
+
+      .cta-row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .button,
+      .ghost-button {
+        width: 100%;
+      }
+
+      .hero-meta {
+        gap: 0.55rem;
+      }
+
+      .hero-meta span {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="wordmark" href="#top">Endless Darkness</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#atmosphere">Atmosphere</a>
+          <a href="#chapter-one">Chapter One</a>
+          <a href="#download">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Launch Edition / Free Download</p>
+          <h1>Endless Darkness</h1>
+          <p class="author">Joshua Szepietowski</p>
+          <p class="hero-line">A literary science fiction novel of inheritance, vigilance, and fragile human tenderness inside a ship that has mistaken endurance for peace.</p>
+          <p class="hero-copy">Inside a generation ship halfway through an impossible mission, Jonah Hale grows up under false dawns, quiet faith, system scrutiny, and the inherited fear that the mind can turn against its own home. Endless Darkness is intimate, austere science fiction about steel, obedience, family, and the pressure of staying whole while the machine keeps watching.</p>
+          <div class="hero-meta" aria-label="Book themes">
+            <span>Generation Ship</span>
+            <span>Faith and Inheritance</span>
+            <span>Psychological Fragility</span>
+            <span>Systems and Surveillance</span>
+          </div>
+          <div class="cta-row">
+            <a class="button" href="Endless%20Darkness.pdf" download>Download the PDF</a>
+            <a class="ghost-button" href="#chapter-one">Read Chapter One</a>
+          </div>
+        </div>
+
+        <aside class="hero-visual">
+          <div class="cover-frame">
+            <img src="cover.png" alt="Cover for Endless Darkness by Joshua Szepietowski">
+          </div>
+          <div class="visual-caption">
+            <span>Steel / Vigilance / Prayer</span>
+            <span>Current file: stable</span>
+          </div>
+        </aside>
+      </section>
+
+      <section id="atmosphere" class="section-block">
+        <div class="panel positioning-grid">
+          <div class="positioning-copy">
+            <p class="section-label">Positioning</p>
+            <h2 class="section-heading">A ship of systems. A family under strain.</h2>
+            <p>The ship is all structure: seams, maintenance bands, sensor logs, ritual language, managed light. The people inside it are not. They love, endure, conceal, pray, monitor one another, and try to keep from becoming the point where anything breaks.</p>
+          </div>
+          <ul class="signal-list" aria-label="Atmospheric signals">
+            <li>False dawns over engineered soil</li>
+            <li>Cold seams, access hatches, hull glass</li>
+            <li>Ritual language beside maintenance doctrine</li>
+            <li>Monitoring, logging, and the fear of drift</li>
+            <li>Love asked to bear more than it should</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="chapter-one" class="reading-section">
+        <div class="reading-intro">
+          <p class="section-label">Read Chapter One</p>
+          <h2 class="section-heading">The opening has already begun.</h2>
+          <p>The full first chapter is rendered below from the manuscript source. Start here, then continue into the complete book whenever you want the rest of the dark.</p>
+        </div>
+        <div class="chapter-panel">
+          <article class="chapter-content">
+            <h1>Chapter 1: The Ones in the Dark</h1>
+<p>Jonah learned the size of the ship from diagrams before he ever felt it in his bones.</p>
+<p>In school, the teachers brought up flattened maps: long bands of color for residential sectors, thinner strips for agricultural cylinders, a rigid gray spine down the middle for reactors and fabrication arrays. They tapped icons that stood in for maglev lines and water channels and hull corridors, their fingers moving with the quick, practiced confidence of people who had never seen any of it from the outside.</p>
+<p>"This is home," they said, and the class repeated it. Home. Habitat cylinder. Structural rings. Core.</p>
+<p>The words sat clean in his mouth. The picture did not.</p>
+<p>The maps made the ship look manageable, like something you could walk end to end if you had enough time and good shoes. The reality—that the band of soil under his feet stretched for hundreds of kilometers before the curvature swallowed it, that above him another band of land hung inverted and far, that beyond that there was only layered hull and vacuum and then nothing at all—landed in him slowly, the way the hum of the machinery did.</p>
+<p>He felt it most clearly in the in-between places. Service corridors. Access hatches. The spots where the ship showed its seams.</p>
+<p>The viewport niche was one of those.</p>
+<p>It lived at the end of a corridor that never quite belonged to anyone, just off a quieter residential band. The main hall, with its familiar scuffed polymer floor and neat row of Companion wall-plates, narrowed into a softer-lit passage used mostly by maintenance crews and kids who wanted shortcuts. At the very end, where two bulkheads met at an awkward angle, the designers had chosen not to cover the misalignment with more paneling. They’d capped the gap with reinforced glass instead.</p>
+<p>The result was a window barely wider than Jonah’s shoulders, set low enough that you had to sit on the floor to use it. It wasn’t on any schematic he’d been shown. It felt like something the ship had forgotten to hide.</p>
+<p>Most people didn’t. The corridor wasn’t on any scenic route. You only came down here if you had a reason—or a habit.</p>
+<p>Tonight, Jonah had both.</p>
+<p>The lights in their family unit had dimmed to night-cycle an hour ago. Lydia had already retreated to the sleeping nook with the curtain drawn, her breathing too quick and shallow. Samuel had moved around the kitchen with the same careful quiet he used in the hull corridors, making tea, humming a hymn under his breath that never quite found its tune. Alina had fidgeted on the bench until Jonah caught her eye and tipped his head toward the door.</p>
+<p>He knew the timing of the door sensors. He knew which Companion plates were in passive mode at this watch and which ones would wake fully if you lingered. He knew, in a way he could not have named yet, how to move through the ship without leaving much of a trace.</p>
+<p>They slipped out together.</p>
+<p>Now, as he reached the end of the service corridor, he found Alina already there, curled up with her knees hugged to her chest, forehead almost touching the glass. The emergency strip along the floor threw a narrow line of light across her socks and the lower half of the viewport. Everything else was shadow.</p>
+<p>"You’re supposed to be in bed," he said.</p>
+<p>She jumped a little, then relaxed when she saw it was him.</p>
+<p>"So are you," she said.</p>
+<p>"I’m older," he said automatically.</p>
+<p>"By three years," she said. "That’s not that much."</p>
+<p>He sat down beside her anyway, back against the opposite wall, feet braced on the deck. The metal was cold through his thin pants. The air had that faint tang of nearby ventilation, less scrubbed than in the main corridors.</p>
+<p>Beyond the glass, there was nothing.</p>
+<p>No stars from here. The viewport faced a thicket of outer structure where the exterior sensors rarely bothered to project sky-feeds. What Jonah could see was the inner layer of transparent armor, a thin sliver of composite hull in cross-section, and then a dark that wasn’t quite black—more like an absence that made his eyes want to slide off it.</p>
+<p>He watched it anyway.</p>
+<p>It made the quiet inside his chest feel less alone.</p>
+<p>"You see anything?" Alina asked.</p>
+<p>"There’s nothing to see," he said.</p>
+<p>"I know," she said. "But do you see anything."</p>
+<p>He glanced at her. Her voice had that too-careful edge that meant she was thinking about their mother.</p>
+<p>"No," he said. "Just…nothing."</p>
+<p>She nodded, as if that were data she’d been waiting to log.</p>
+<p>"You?" he asked.</p>
+<p>She hesitated.</p>
+<p>"Sometimes," she said. "When I’m tired. The dark looks…closer."</p>
+<p>He followed her gaze. The glass sat flush in its frame, the gasket seal unbroken. He knew, intellectually, how much composite and layered shielding separated them from vacuum. He could recite the numbers from school, the thickness of each layer, the safety margins.</p>
+<p>"It’s not," he said.</p>
+<p>"I know," she said again. "Just looks that way. Like it’s leaning in."</p>
+<p>He didn’t have an answer for that. He leaned his head back against the bulkhead and closed his eyes for a second, listening to the hum of the ship: the distant rush of air through ducts, the faint vibration under the soles of his feet.</p>
+<p>Samuel said the dark didn’t move. The ship moved. They moved. The dark just…was.</p>
+<p>He wasn’t sure that was better.</p>
+<p>"Dad says the dark doesn’t move," he said.</p>
+<p>"Dad says a lot of things," Alina said.</p>
+<p>There was no disrespect in it. Just tired affection.</p>
+<p>"He’s right, though," Jonah said. "The ship moves. We move. The dark just…is."</p>
+<p>"That’s worse," she said softly.</p>
+<p>"How?"</p>
+<p>"If it moved," she said, "you could pretend it was going somewhere. Or that it would leave you alone if you stayed still. If it just sits there, then it’s always waiting."</p>
+<p>He hadn’t thought about it like that.</p>
+<p>He shifted his weight on the cold floor, trying to shake pins and needles from his calves, and searched for something solid to hand her. Facts. Numbers. Anything.</p>
+<p>"You’ve been drawing this again?" he asked instead.</p>
+<p>Her cheeks colored in the half-light.</p>
+<p>"Maybe," she said.</p>
+<p>He pictured her sketchbook—the one she kept tucked under her mattress, pages full of simplified ships and smiling kids and stars that looked nothing like the real feeds. Lately there had been more empty spaces in those drawings. Blank ovals where planets should be. Little shadowed corners.</p>
+<p>"If you’re drawing it," he said, "you’re making it yours. That’s different."</p>
+<p>"Tell that to Mom," she said.</p>
+<p>The word hung there, heavier than the dark.</p>
+<p>They both knew what she meant. How their mother had once painted little suns on the inside of cupboard doors and then, later, couldn’t bring herself to open them.</p>
+<p>"She’s having a bad week," Jonah said carefully.</p>
+<p>"She’s always having a bad week," Alina said, then winced at herself. "Sorry. I just…"</p>
+<p>She trailed off, tucking a stray hair behind her ear.</p>
+<p>"Do you ever worry it’s catching?" she asked.</p>
+<p>The question landed like a hand over his mouth.</p>
+<p>He thought of the kitchen table. Of his own feet retreating down the hall. Of the way he’d frozen, useless, while Samuel moved.</p>
+<p>"No," he lied.</p>
+<p>Alina made a small sound that might have been a laugh.</p>
+<p>"I do," she said. "All the time."</p>
+<p>He turned to look at her fully.</p>
+<p>"You’re not her," he said.</p>
+<p>"Neither are you," she shot back.</p>
+<p>He opened his mouth, then closed it again.</p>
+<p>"Sometimes," she went on, "when I’m in class and the teacher’s talking and I can’t make my brain stay with them, I…pretend I’m just tired. Or hungry. Or the vents are too loud. I make lists. Anything but what it feels like."</p>
+<p>"Like what?" he asked, even though he knew.</p>
+<p>She swallowed.</p>
+<p>"Like my mind is…sliding off the world," she said. "Like I’m watching myself from the hallway and I’m scared if I move, I’ll make a noise and everyone will see I’m wrong."</p>
+<p>He exhaled slowly.</p>
+<p>"That’s just anxiety," he said.</p>
+<p>She gave him a look.</p>
+<p>"You say that like it’s a different thing," she said.</p>
+<p>"It is," he said. "Anxiety is…worry about things that haven’t happened yet."</p>
+<p>"And what Mom has?" she asked.</p>
+<p>He flinched.</p>
+<p>"I don’t know what Mom has," he said. "I just know—I just know Dad says the doctors are helping and the Ship is watching and we’re not supposed to—"</p>
+<p>"Talk about it," she finished with him.</p>
+<p>They sat in silence for a long moment.</p>
+<p>The ship hummed. The dark stayed where it was.</p>
+<p>"What if," Alina said at last, voice very small, "what if there’s a line and we can’t see it. And one day we wake up and we’ve…stepped over."</p>
+<p>Jonah stared straight ahead.</p>
+<p>"Then we step back," he said.</p>
+<p>"Is it that easy?" she asked.</p>
+<p>"No," he admitted. "But…Dad does. A little. With her."</p>
+<p>He remembered Samuel’s hands on Lydia’s shoulders, his steady voice. The way he never flinched, even when Lydia’s eyes went far away.</p>
+<p>"He holds on," Jonah said. "So she doesn’t drift too far."</p>
+<p>"Who holds on to us?" Alina asked.</p>
+<p>The question hit him in the sternum.</p>
+<p>"I do," he said, before he could think about whether it was true.</p>
+<p>She turned her head, searching his face.</p>
+<p>"You can’t," she said gently. "You’re already holding on to her. And Dad. And the Ship."</p>
+<p>He wanted to protest. He wanted to say he was strong enough, that he could be all the anchor points they needed if he just tried harder.</p>
+<p>The words stuck.</p>
+<p>"We hold on to each other," he said instead, quieter. "Right?"</p>
+<p>Alina considered that.</p>
+<p>"Like a tether," she said.</p>
+<p>"Yeah," he said. "Like a tether."</p>
+<p>She reached down and hooked her pinky finger through his.</p>
+<p>"Then don’t let go," she said.</p>
+<p>"I won’t," he said.</p>
+<p>It felt, in that moment, like a promise he could keep.</p>
+<p>They sat like that, side by side, fingers linked, watching the non-sky beyond the glass.</p>
+<p>After a while, the dark stopped looking like something that might lean in. It looked like what it was: a vast, indifferent nothing. The thing that made the thin layer of hull between them and it feel precious.</p>
+<p>Jonah listened to the hum under his feet, to Alina’s steady breathing, to the distant murmur of a Companion somewhere further up the corridor talking somebody else through a routine.</p>
+<p>He imagined a stability log recording this: two kids out of bed, heart rates elevated but not dangerous, thoughts circling topics they didn’t have names for.</p>
+<p>He hoped, irrationally, that if the Ship was watching, it would see the pinky tether too.</p>
+<hr>
+<p>The worship hall smelled like damp clothes and manufactured incense the next time he heard someone talk about the dark.</p>
+<p>It was a working-band chapel, narrow and overfull. Condensation beaded along the ribs of the ceiling and caught the warm light so that everything glowed a little, like they were underwater. Someone had draped cloth over the vents and bolted a rough wooden crosspiece to the wall to make the space look less like a repurposed storage bay and more like somewhere you were supposed to bow your head.</p>
+<p>Jonah sat between his father and the aisle, shoulders drawn in, hands folded around the edge of the bench. His boots brushed the scuffed deck with each breath. The hum of the maglev beyond the bulkhead pressed up through the soles of his feet.</p>
+<p>"We remember," the preacher said, palm resting against the thin tablet that held their scriptures and archive excerpts. "We remember the world that was given and the world that was lost. We remember Earth—not because we will return, but because we were sent."</p>
+<p>The congregation murmured the response. Jonah felt Samuel’s chest move beside him as his father spoke the words: "We are sent. We are carried."</p>
+<p>On the far wall, above the improvised altar, someone had painted a circle of pale gold on dark blue. A simple ring, no continents, no clouds. Just a star.</p>
+<p>A verse slid onto the wall from the projector—old text about sojourners and a better country. The letters floated over the painted circle, scripture layered over star.</p>
+<p>"Project Exodus was not a mistake," the preacher went on. "It was not panic. It was calling. Long before any of us were born, our mothers’ mothers’ mothers agreed to step into the dark, to bind their children and their children’s children to a promise. Not to reach back for what was burning, but to go forward to what waited ahead, even knowing they would never see it with their own eyes."</p>
+<p>Jonah stared at the ring of paint. He had seen star maps in class—flat diagrams, clean lines—but none of them had felt like this, like something that watched you back.</p>
+<p>"The planners called it Tau Ceti," she said. "A name like a number. An entry on a chart. A G-type star twelve light-years from the world we lost. They measured its light. They counted its dust and hinted planets. They said: here, maybe, our children’s children will stand on ground that is not steel." Her voice softened. "But we know it as more than a coordinate."</p>
+<p>Around them, people shifted, some nodding, some staring at the floor. An older woman in the front row mouthed "Tau Ceti" silently, like an extra line to an old prayer.</p>
+<p>"We know Tau Ceti," the preacher said, "as the far shore of obedience. The name we give to the place where this long faithfulness might end. We do not know what waits there. We are not promised a second Eden. We are not promised safety. We are promised only this: that God is not less present there than here."</p>
+<p>Samuel’s hand rested, briefly, on Jonah’s knee. A small weight, then gone.</p>
+<p>Jonah hadn’t known there was a word for the far end of all this. For the idea that the dark outside the hull might have a boundary somewhere.</p>
+<p>"Children," the preacher said, and her voice gentled. "You did not choose this journey. You did not choose steel instead of soil, rivers that run in channels overhead instead of along the ground. You did not choose to be born halfway between a world destroyed and a star you will never, in your own lifetime, see. But you are not accidents. You are links in a chain."</p>
+<p>Her hand lifted toward the painted circle.</p>
+<p>"When you hear the old ones say 'for the sake of Tau Ceti,' remember: they are not asking you to love a star. They are asking you to love the ones who will come after you. To hold the line so that, if the ship arrives and a door opens and real air hits real skin, someone will be there to feel it."</p>
+<p>Jonah’s mind tried to picture it—sky that did not curve back over you, ground that did not hum faintly with machinery. At first there was only blankness, like when a Companion asked him a question he didn’t understand. Then, slowly, the idea of "after" uncoiled, long and thin, like one of the transit rails stretching into haze.</p>
+<p>He could not imagine standing on any ground that wasn’t this humming deck. He could imagine, too clearly, the other thing: the ship failing. The chain snapping. The dark swallowing everything so thoroughly that no one ever even knew they had gone.</p>
+<p>"For the sake of Tau Ceti," the preacher said, and the congregation echoed her. The words rolled around the narrow hall and settled under Jonah’s ribs like something heavy.</p>
+<p>After the service, as people queued for thin cups of synth-coffee and conversations turned to shift schedules and sick relatives and hull inspections, Jonah stayed close to his father.</p>
+<p>"Do you think we’ll make it?" he asked, voice low enough that the words barely left his throat.</p>
+<p>Samuel considered. He did that—actually thought before he answered, as if words were tools that could break if handled wrong.</p>
+<p>"I think," he said at last, "that whether we see it or not, what we do matters all the way there." He nodded toward the painted circle. "Tau Ceti is just what we call the far end of faithfulness."</p>
+<p>Jonah looked up at the gold ring one more time. The star had no features, no flares or spots, just a circle of paint on metal, already scuffed at the edges by time and damp.</p>
+<p>The dark beyond the hull didn’t move. The ship did. They did. Somewhere ahead, invisible and impossible, a star burned.</p>
+<p>He didn’t know if he believed in it.</p>
+<p>But as he walked back through the corridors toward their unit, Alina’s pinky promise tugging at his hand like a phantom tether, he knew he couldn’t stop thinking about the distance—out there in the black, and inside his own head.</p>
+<p>He was one small link in a chain he hadn’t chosen, walking a narrow band of metal and soil under a painted sky. All he wanted, standing between the ones in the dark behind him and the ones in the dark ahead, was not to be the point where anything broke.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="download" class="download-section">
+        <div class="panel download-panel">
+          <div class="download-copy">
+            <p class="section-label">Free Download</p>
+            <h2 class="section-heading">Take the full manuscript.</h2>
+            <p>The complete novel is available here as a free PDF. Read the opening below, or step directly into the full manuscript.</p>
+          </div>
+          <div class="download-actions">
+            <a class="button" href="Endless%20Darkness.pdf" download>Download Endless Darkness.pdf</a>
+            <a class="ghost-button" href="#top">Return to Top</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-visual-section" aria-label="Back cover feature">
+        <div class="closing-visual-panel">
+          <img class="closing-visual-image" src="back-cover.png" alt="Back cover artwork for Endless Darkness">
+          <div class="closing-visual-copy">
+            <p class="section-label">Outer Hull / Final View</p>
+            <h2 class="section-heading">The dark remains larger than the ship.</h2>
+            <p>What waits outside the hull is indifferent. What remains inside it is obligation, memory, prayer, and the fragile work of not letting one another disappear.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Endless Darkness</span>
+      <span>Joshua Szepietowski</span>
+      <span>Static launch page build</span>
+    </footer>
+  </div>
+
+</body>
+</html>

@@ -678,24 +678,37 @@ html_output = f"""<!DOCTYPE html>
     }}
 
     .download-section {{
-      width: min(calc(100% - 2rem), 62rem);
+      width: min(calc(100% - 2rem), 68rem);
       margin: 0 auto;
       padding: 4.5rem 0 5.5rem;
     }}
 
     .download-panel {{
       display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: 1.5rem;
-      align-items: center;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1.65rem;
+      align-items: start;
+    }}
+
+    .download-copy {{
+      max-width: 45rem;
     }}
 
     .download-actions {{
       display: flex;
       flex-wrap: wrap;
       gap: 0.85rem;
-      align-items: center;
-      justify-content: flex-end;
+      align-items: stretch;
+      justify-content: flex-start;
+    }}
+
+    .download-actions .button {{
+      flex: 1 1 20rem;
+      max-width: 22rem;
+    }}
+
+    .download-actions .ghost-button {{
+      flex: 0 1 11rem;
     }}
 
     .closing-visual-section {{

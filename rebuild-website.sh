@@ -932,7 +932,7 @@ html_output = f"""<!DOCTYPE html>
     <footer>
       <span>Endless Darkness</span>
       <span>Joshua Szepietowski</span>
-      <span>Static launch page build</span>
+      <a href=\"https://joshszep.com\" target=\"_blank\" rel=\"noreferrer\">Author book list</a>
     </footer>
   </div>
 

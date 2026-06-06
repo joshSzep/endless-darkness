@@ -8,6 +8,7 @@ set -euo pipefail
 # - website/cover.png
 # - website/back-cover.png
 # - website/Endless Darkness.pdf
+# - website/Endless Darkness.epub
 
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 website_dir="$script_dir/website"
@@ -18,6 +19,8 @@ back_cover_source_path="$script_dir/back-cover.png"
 back_cover_output_path="$website_dir/back-cover.png"
 pdf_source_path="$script_dir/Endless Darkness.pdf"
 pdf_output_path="$website_dir/Endless Darkness.pdf"
+epub_source_path="$script_dir/Endless Darkness.epub"
+epub_output_path="$website_dir/Endless Darkness.epub"
 index_path="$website_dir/index.html"
 
 if [[ ! -f "$chapter_path" ]]; then
@@ -41,9 +44,15 @@ if ! command -v python3 >/dev/null 2>&1; then
 fi
 
 bash "$script_dir/rebuild-pdf.sh"
+bash "$script_dir/rebuild-epub.sh"
 
 if [[ ! -f "$pdf_source_path" ]]; then
 	echo "Missing PDF after rebuild: $pdf_source_path" >&2
+	exit 1
+fi
+
+if [[ ! -f "$epub_source_path" ]]; then
+	echo "Missing EPUB after rebuild: $epub_source_path" >&2
 	exit 1
 fi
 
@@ -53,6 +62,7 @@ mkdir -p "$website_dir"
 cp "$cover_source_path" "$cover_output_path"
 cp "$back_cover_source_path" "$back_cover_output_path"
 cp "$pdf_source_path" "$pdf_output_path"
+cp "$epub_source_path" "$epub_output_path"
 
 CHAPTER_PATH="$chapter_path" INDEX_PATH="$index_path" python3 <<'PY'
 from __future__ import annotations
@@ -126,7 +136,7 @@ atmosphere_copy = (
     "They love, endure, conceal, pray, monitor one another, and try to keep from becoming the point where anything breaks."
 )
 download_copy = (
-    "The complete novel is available here as a free PDF. Read the opening below, or step directly into the full manuscript."
+    "The complete novel is available here as a free PDF or EPUB. Read the opening below, or step directly into the full manuscript."
 )
 closing_copy = (
   "What waits outside the hull is indifferent. What remains inside it is obligation, memory, prayer, and the fragile work of not letting one another disappear."
@@ -846,6 +856,7 @@ html_output = f"""<!DOCTYPE html>
           </div>
           <div class=\"cta-row\">
             <a class=\"button\" href=\"Endless%20Darkness.pdf\" download>Download the PDF</a>
+            <a class=\"button\" href=\"Endless%20Darkness.epub\" download>Download the EPUB</a>
             <a class=\"ghost-button\" href=\"#chapter-one\">Read Chapter One</a>
           </div>
         </div>
@@ -900,6 +911,7 @@ html_output = f"""<!DOCTYPE html>
           </div>
           <div class=\"download-actions\">
             <a class=\"button\" href=\"Endless%20Darkness.pdf\" download>Download Endless Darkness.pdf</a>
+            <a class=\"button\" href=\"Endless%20Darkness.epub\" download>Download Endless Darkness.epub</a>
             <a class=\"ghost-button\" href=\"#top\">Return to Top</a>
           </div>
         </div>

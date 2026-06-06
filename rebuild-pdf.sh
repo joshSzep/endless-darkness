@@ -28,7 +28,10 @@ if [[ ! -f "$back_cover_path" ]]; then
 	exit 1
 fi
 
-"$script_dir/rebuild-manuscript.sh"
+(
+	cd "$script_dir"
+	./rebuild-manuscript.sh
+)
 
 if [[ ! -f "$manuscript_path" ]]; then
 	echo "Missing manuscript file after rebuild: $manuscript_path" >&2

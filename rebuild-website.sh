@@ -149,6 +149,8 @@ html_output = f"""<!DOCTYPE html>
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
   <title>{page_title}</title>
   <meta name=\"description\" content=\"A literary science fiction novel by {author_name}, set aboard a generation ship where inherited pressure, faith, surveillance, and tenderness coexist in the dark.\">
+  <link rel=\"icon\" type=\"image/png\" href=\"cover.png\">
+  <link rel=\"apple-touch-icon\" href=\"cover.png\">
   <style>
     :root {{
       --bg: #07090c;
